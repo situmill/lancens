@@ -21,4 +21,5 @@
   * [我的好友](guan-yu-wo-de/wo-de-hao-you.md)
   * [我的分享](guan-yu-wo-de/wo-de-fen-xiang.md)
   * [用户资料](guan-yu-wo-de/yong-hu-zi-liao.md)
+  * 修改密码
 
