@@ -4,9 +4,9 @@
 
 ### 1.第三方微信登录接口
 
-* API接口：[https://weixin.lancens.com:6443/v1/api/user/login](https://weixin.lancens.com:6443/v1/api/user/login)
+* API接口：https://weixin.lancens.com:6443/v1/api/user/weixin/app/login
 
-* 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"password\": \"string\"}"`
+* 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/weixin/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\",  \"openid\": \"string\"}"`
 
 ### 2.第三方微信登录接口说明：
 
