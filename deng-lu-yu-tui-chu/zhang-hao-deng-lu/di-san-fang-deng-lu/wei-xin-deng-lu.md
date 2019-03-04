@@ -27,7 +27,7 @@
   }
   ```
 
-* 若未绑定用户则新建一个用户，默认用户名wx\_XXX\(20\)，密码随机10位。返回数据格式:
+* 若未绑定用户则新建一个用户，默认用户名wx\_XXX\(20\)，密码随机10位。服务器先调用API：https://weixin.lancens.com/v1/api/user/wx/app 生成新的账号，再调用API接口： https://weixin.lancens.com/v1/api/user/login 用户登录接口
 
 ```
 {
