@@ -8,7 +8,9 @@
 * [登录与退出](deng-lu-yu-deng-chu.md)
   * [账号登录](deng-lu-yu-deng-chu/zhang-hao-deng-lu.md)
     * [账号登录](deng-lu-yu-deng-chu/zhang-hao-deng-lu/pu-tong-deng-lu.md)
-    * 第三方登录
+    * [第三方登录](deng-lu-yu-deng-chu/zhang-hao-deng-lu/di-san-fang-deng-lu.md)
+      * 微信登录
+      * Facebook
   * [账号退出](deng-lu-yu-deng-chu/zhang-hao-tui-chu.md)
 * [设备相关](she-bei-xiang-guan.md)
   * [我的设备](she-bei-xiang-guan/wo-de-she-bei.md)
@@ -19,4 +21,6 @@
   * [我的好友](guan-yu-wo-de/wo-de-hao-you.md)
   * [我的分享](guan-yu-wo-de/wo-de-fen-xiang.md)
   * [账号资料](guan-yu-wo-de/zhang-hao-zi-liao.md)
+
+
 
