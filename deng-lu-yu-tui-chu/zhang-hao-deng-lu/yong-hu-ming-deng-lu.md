@@ -2,7 +2,7 @@
 
 ### 1.用户账号登录接口
 
-* API接口：[https://weixin.lancens.com:6443/v1/api/user/logout](https://weixin.lancens.com:6443/v1/api/user/logout)
+* API接口：https://weixin.lancens.com:6443/v1/api/user/login
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/logout" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"token\": \"string\"}"`
 
