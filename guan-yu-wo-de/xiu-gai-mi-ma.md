@@ -40,9 +40,9 @@
 
 ##### 2.通过邮箱验证码，重置用户密码
 
-* API接口：https://weixin.lancens.com:6443/v1/api/user/email/reset/password
+* API接口：[https://weixin.lancens.com:6443/v1/api/user/email/reset/password](https://weixin.lancens.com:6443/v1/api/user/email/reset/password)
 
-* 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"code\": \"string\"}"`
+* 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
 
 * 接口相关说明：密码\(8-16\)，code为手机号收到的6位数验证码。
 
