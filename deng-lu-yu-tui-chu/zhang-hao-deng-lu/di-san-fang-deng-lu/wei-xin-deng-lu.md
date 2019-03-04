@@ -8,10 +8,6 @@
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/weixin/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\",  \"openid\": \"string\"}"`
 
-* 接口说明：
-
-  ①.
-
 ### 2.第三方微信登录接口说明：
 
 * 重要参数：username\(6-32\)，password\(8-16\)，reflash\_key\(token令牌有效期默认一个月时间戳\)
