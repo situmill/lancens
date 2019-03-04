@@ -3,8 +3,8 @@
 * [叮叮智能API说明书](README.md)
 * [账号注册](deng-lu-yu-zhu-ce.md)
   * [用户名注册](deng-lu-yu-zhu-ce/zhu-ce.md)
-  * 手机号注册
-  * 邮箱注册
+  * [手机号注册](deng-lu-yu-zhu-ce/shou-ji-hao-zhu-ce.md)
+  * [邮箱注册](deng-lu-yu-zhu-ce/you-xiang-zhu-ce.md)
 * [登录与退出](deng-lu-yu-deng-chu.md)
   * [账号登录](deng-lu-yu-deng-chu/zhang-hao-deng-lu.md)
     * [账号登录](deng-lu-yu-deng-chu/zhang-hao-deng-lu/pu-tong-deng-lu.md)
@@ -21,6 +21,4 @@
   * [我的好友](guan-yu-wo-de/wo-de-hao-you.md)
   * [我的分享](guan-yu-wo-de/wo-de-fen-xiang.md)
   * [账号资料](guan-yu-wo-de/zhang-hao-zi-liao.md)
-
-
 
