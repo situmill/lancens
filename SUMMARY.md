@@ -1,8 +1,8 @@
 # Summary
 
 * [API说明书](README.md)
-* [注册账号](deng-lu-yu-zhu-ce.md)
-  * [注册](deng-lu-yu-zhu-ce/zhu-ce.md)
+* [账号注册](deng-lu-yu-zhu-ce.md)
+  * [用户名注册](deng-lu-yu-zhu-ce/zhu-ce.md)
 * [登录与退出](deng-lu-yu-deng-chu.md)
   * 账号登录
   * 账号退出
