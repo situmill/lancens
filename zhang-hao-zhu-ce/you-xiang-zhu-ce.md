@@ -16,7 +16,7 @@
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/email/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"email\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
-* 接口相关说明，账号名默认 em\_XXXX\(20位\)，密码\(8-16\)，apikey由lancens提供参数。code为手机号收到的6位数验证码
+* 接口相关说明，账号名默认 em\_XXXX\(20位\)，密码\(8-16\)，apikey由lancens提供参数。code为邮箱收到的6位数验证码
 
 
 
