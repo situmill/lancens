@@ -6,9 +6,10 @@
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
-* 接口请求：
+* 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
 
-* ### 2.用户名注册接口说明：
+### 2.手机号注册接口：
+
 * 重要参数:username（用户名6-32位），password（8-16），phone（6-20），email（6-40），realm（1-32），          apikey（32）.code（6）
 
 * username用户名不能纯数字，apikey由lancens提供参数。code满足6位即可，成功返回201
