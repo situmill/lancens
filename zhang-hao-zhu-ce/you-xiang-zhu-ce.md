@@ -8,7 +8,7 @@
 
 * 接口请求：`curl -X GET "https://weixin.lancens.com:6443/v1/api/email/register?email=XXX" -H  "accept: application/json"`
 
-* 接口相关说明：邮箱验证码有效期5分钟，手机号目前支持国内。
+* 接口相关说明：正确邮箱格式，appname\(app名称默认空\)。
 
 ### 2.邮箱注册：
 
