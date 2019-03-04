@@ -32,7 +32,7 @@
 
 ##### 1.发送邮箱重置用户密码验证码
 
-* API接口：[https://weixin.lancens.com:6443/v1/api/phone/retrieve](https://weixin.lancens.com:6443/v1/api/phone/retrieve)
+* API接口：https://weixin.lancens.com:6443/v1/api/user/passwordcode/email
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
 
