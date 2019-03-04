@@ -16,7 +16,7 @@
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
-* 接口相关说明，账号名默认mp\_XXXX，apikey由lancens提供参数。code满足6位即可，成功返回201
+* 接口相关说明，账号名默认 mp\_XXXX\(20位\)，apikey由lancens提供参数。code满足6位即可，成功返回201
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(database XXX :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
