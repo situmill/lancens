@@ -8,7 +8,7 @@
 
 * 接口相关说明：密码长度\(8-16\)，。
 
-### 2.手机号注册：
+### 2.手机号修改密码：
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
