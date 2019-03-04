@@ -10,6 +10,10 @@
 
 ### 2.手机号修改密码：
 
+#### 手机号修好密码，首先调用重置手机密码接口发送验证码，获取验证码后再调用手机修改密码接口
+
+    1
+
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
