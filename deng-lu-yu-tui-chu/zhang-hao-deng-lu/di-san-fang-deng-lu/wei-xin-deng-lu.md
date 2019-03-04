@@ -10,7 +10,7 @@
 
 ### 2.第三方微信登录接口说明：
 
-* 重要参数：access\_token\(&lt;60\)，openid\(28\)，reflash\_key\(token令牌有效期默认一个月时间戳\)
+* 重要参数：access\_token\(&lt;60\)，openid\(28\)
 
 * username可以为用户名，手机号或邮箱，三者都可以登录。
 
