@@ -32,11 +32,11 @@
 
 ##### 1.发送邮箱重置用户密码验证码
 
-* API接口：https://weixin.lancens.com:6443/v1/api/user/passwordcode/email
+* API接口：[https://weixin.lancens.com:6443/v1/api/user/passwordcode/email](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email)
 
-* 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
+* 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
-* 接口相关说明：手机验证码有效期5分钟，手机号目前支持国内。
+* 接口相关说明：正确的接收验证码的邮箱格式。
 
 ##### 2.通过邮箱验证码，重置用户密码
 
