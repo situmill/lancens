@@ -1,10 +1,8 @@
 ## 修改密码相关接口：
 
-手机号注册账号需要先调用发送手机验证码接口，获取到6位数验证码后，才能调用注册。
+### 1.通过旧密码修改密码
 
-### 1.发送手机注册验证码
-
-* API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
+* API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/user/password)
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
 
