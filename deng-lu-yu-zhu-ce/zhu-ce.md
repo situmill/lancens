@@ -10,7 +10,7 @@
 
 * username用户名不能纯数字，apikey由lancens提供参数。code满足6位即可，成功返回201
 
-* 相关错误代码解析:\(undefined username 参数没有传用户名\),\(undefined password 没有传密码\),\(undefined realm 没有传昵称\),\(undefined email 没有传邮箱\),\(undefined phone 没有传手机号\),\(undefined apikey 没有传apikey\),\(undefined code 没有传code\),\(username length error 用户长度1-32\),\(username error 验证用户名失败\),\(password length\(8-16\) 密码长度8-16位\),\(realm length error 昵称长度1-32\),\(email length error 邮箱1-40\),\(email format error 邮箱类型错误\),\(token length error token长度不是32位\),\(phone length error 手机长度6-32\),\(apikey length error api不是32位\),\(database error SQL操作错误\),\(user exist 用户名存在\),\(email exist 邮箱存在\),\(database user error 数据库添加用户错误\),\(database vcard error 数据库添加用户卡片错误\),\(database token error 数据库添加token错误\),\(no data error 数据错误\),\(paramer error try中捕获到错误\)
+* 相关错误代码解析:\(undefined XXX 参数没有传XXX\),\(XXX length error XXX长度有误\),\(XXX error 验证XXX失败\),\(XXX format error XXX类型错误\),\(database XXX 数据库操作错误\),\(XXX exist XXX存在\),\(no data error 数据错误\),\(paramer error try中捕获到错误\)
 
 ###### 
 
