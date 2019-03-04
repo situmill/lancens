@@ -1,6 +1,6 @@
 ## 用户账号退出相关接口：
 
-### 1.用户名注册接口
+### 1.用户账号退出接口
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
 
