@@ -8,7 +8,7 @@
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
 
-### 2.手机号注册接口：
+### 2.手机号注册：
 
 * 重要参数:username（用户名6-32位），password（8-16），phone（6-20），email（6-40），realm（1-32），          apikey（32）.code（6）
 
