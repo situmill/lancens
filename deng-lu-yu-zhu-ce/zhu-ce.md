@@ -1,6 +1,6 @@
 ## 用户名注册相关接口：
 
-### 1.账号注册接口
+### 1.用户名注册接口
 
 ```
 接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
