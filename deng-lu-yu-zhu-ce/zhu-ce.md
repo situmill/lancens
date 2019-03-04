@@ -3,7 +3,7 @@
 ### 1.账号注册接口
 
 ```
-1.接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
+接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
 ```
 
 ### 2.注册接口说明：
