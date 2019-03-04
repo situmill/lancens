@@ -34,7 +34,7 @@
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/user/passwordcode/email](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email)
 
-* 请求上面接口后，服务端会调用API接口:[https://weixin.lancens.com:6443/v1/api/mail2](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email)\(服务端自动调用\)
+* 请求上面接口后，服务端会调用API接口:[https://weixin.lancens.com:6443/v1/api/mail2](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email) \(服务端自动调用\)
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
