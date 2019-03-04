@@ -26,7 +26,7 @@
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"code\": \"string\"}"`
 
-* 接口相关说明：密码长度\(8-16\)。
+* 接口相关说明：密码\(8-16\)，code为手机号收到的6位数验证码。
 
 
 
