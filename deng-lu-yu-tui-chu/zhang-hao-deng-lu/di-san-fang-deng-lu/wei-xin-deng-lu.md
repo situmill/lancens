@@ -12,7 +12,7 @@
 
 * 重要参数：access\_token\(&lt;60\)，openid\(28\)
 
-* 微信授权接口:。
+* 微信授权接口：https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX
 
 * 调用此接口，会删除用户的响铃和消息推送令牌并重新在redis中生成用户登录令牌token。
 
