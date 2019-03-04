@@ -16,6 +16,15 @@
 
 * 成功返回201，数据:
 
+```
+{
+"id":0,
+"token":"string",
+"reflash_key":"string",
+"time":0
+}
+```
+
 * 相关错误代码解析：\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(database XXX :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
 
