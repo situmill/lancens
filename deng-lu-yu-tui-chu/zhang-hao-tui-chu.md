@@ -8,7 +8,7 @@
 
 ### 2.用户账号退出接口说明：
 
-* 重要参数：用户名\(6-32\)，password（8-16），phone（6-20），email（6-40），realm（1-32），          apikey（32）.code（6）
+* 重要参数：用户名\(6-32\)
 
 * username用户名不能纯数字，apikey由lancens提供参数。code满足6位即可，成功返回201
 
