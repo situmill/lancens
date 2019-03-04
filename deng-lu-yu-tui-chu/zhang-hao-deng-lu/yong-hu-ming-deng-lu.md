@@ -1,12 +1,12 @@
 ## 用户账号登录相关接口：
 
-### 1.用户账号退出接口
+### 1.用户账号登录接口
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/user/logout](https://weixin.lancens.com:6443/v1/api/user/logout)
 
 * 接口请求：`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/logout" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"token\": \"string\"}"`
 
-### 2.用户账号退出接口说明：
+### 2.用户账号登录接口说明：
 
 * 重要参数：用户名username\(6-32\)
 
