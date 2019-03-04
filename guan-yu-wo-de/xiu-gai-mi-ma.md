@@ -30,7 +30,7 @@
 
 ### 3.邮箱修改密码
 
-##### 1.发送手机重置用户密码验证码
+##### 1.发送邮箱重置用户密码验证码
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/retrieve](https://weixin.lancens.com:6443/v1/api/phone/retrieve)
 
