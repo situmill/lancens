@@ -14,7 +14,18 @@
 
 * 微信授权接口：[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
-* 调用此接口，授权成功后会返回字段unionid ，openid 。
+* 调用此接口，授权成功后会返回字段unionid ，openid ，通过查询微信绑定表,判断是否绑定用户。
+
+* 若绑定用户则直接登录绑定的账号。返回数据格式:
+
+  ```
+  {
+  "id":0,
+  "token":"string",
+  "reflash_key":"string",
+  "time":0
+  }
+  ```
 
 * 成功返回201，此处返回的_**token**_值为用户令牌，**所有接口**都要传入才能获取用户信息。返回数据格式:
 
