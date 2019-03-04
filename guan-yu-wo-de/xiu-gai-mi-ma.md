@@ -38,7 +38,7 @@
 
 * 接口相关说明：手机验证码有效期5分钟，手机号目前支持国内。
 
-##### 2.通过手机验证码，重置用户密码
+##### 2.通过邮箱验证码，重置用户密码
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/retrieve](https://weixin.lancens.com:6443/v1/api/phone/retrieve)
 
