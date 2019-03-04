@@ -27,7 +27,7 @@
   }
   ```
 
-* 若未绑定用户则新建一个用户，默认用户名wx\_XXX\(20\)，密码随机10位。服务器先调用API：[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号，再调用API接口： [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录，最后再调API:[https://weixin.lancens.com/v1/api/user/weixin/app](https://weixin.lancens.com/v1/api/user/weixin/app) 认证后新增到wx\_binging表中 加微信账号对应记录，下次就直接可以登录不需要新建账号
+* 若未绑定用户则新建一个用户，默认用户名wx\_XXX\(20\)，密码随机10位。服务器先调用API：[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号，再调用API接口： [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录，最后再调API:[https://weixin.lancens.com/v1/api/user/weixin/app](https://weixin.lancens.com/v1/api/user/weixin/app) 成功后新增到wx\_binging表中 加微信账号对应记录，下次就直接可以登录不需要新建账号
 
 ```
 {
