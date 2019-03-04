@@ -16,18 +16,11 @@
 
 * 调用此接口，授权成功后会返回字段unionid ，openid ，通过查询微信绑定表,判断是否绑定用户。
 
-* 若绑定用户则直接登录绑定的账号。返回数据格式:
-
-  ```
-  {
-  "id":0,
-  "token":"string",
-  "reflash_key":"string",
-  "time":0
-  }
-  ```
+* 若微信表中已绑定用户则直接登录绑定的账号。返回
 
 * 若未绑定用户则新建一个用户，默认用户名wx\_XXX\(20\)，密码随机10位。服务器先调用API：[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号，再调用API接口： [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录，最后再调API:[https://weixin.lancens.com/v1/api/user/weixin/app](https://weixin.lancens.com/v1/api/user/weixin/app) 成功后新增记录绑定到微信表中，下次无需再建账号。
+
+* 返回数据格式：
 
 ```
 {
