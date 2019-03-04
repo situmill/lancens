@@ -4,7 +4,7 @@
 
 ### 1.发送邮箱注册验证码
 
-* API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
+* API接口：https://weixin.lancens.com:6443/v1/api/email/register
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
 
