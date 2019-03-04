@@ -14,7 +14,7 @@
 
 ##### 1.发送手机重置用户密码验证码
 
-* API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/user/password)
+* API接口：https://weixin.lancens.com:6443/v1/api/phone/retrieve
 
 * 接口请求：`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"oldpassword\": \"string\"}"`
 
