@@ -2,7 +2,7 @@
 
 ### 1.用户名注册接口
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user
+* API接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"password\": \"string\",  \"realm\": \"string\",  \"email\": \"string\",  \"phone\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
