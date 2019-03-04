@@ -1,8 +1,8 @@
 ## 邮箱注册相关接口：
 
-手机号注册账号需要先调用发送手机验证码接口，获取到6位数验证码后，才能调用注册。
+邮箱注册账号需要先调用发送邮箱验证码接口，获取到6位数验证码后，才能调用注册。
 
-### 1.发送手机注册验证码
+### 1.发送邮箱注册验证码
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
@@ -10,7 +10,7 @@
 
 * 接口相关说明：手机验证码有效期5分钟，手机号目前支持国内。
 
-### 2.手机号注册：
+### 2.邮箱注册：
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
