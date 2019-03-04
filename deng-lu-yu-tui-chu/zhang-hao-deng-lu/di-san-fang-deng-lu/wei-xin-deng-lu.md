@@ -1,5 +1,7 @@
 ## 第三方微信登录相关接口：
 
+摘要:第三方微信登录需要微信方授权，授权成功后再新建一个账号与微信方绑定账号。实现登录
+
 ### 1.第三方微信登录接口
 
 * API接口：[https://weixin.lancens.com:6443/v1/api/user/login](https://weixin.lancens.com:6443/v1/api/user/login)
