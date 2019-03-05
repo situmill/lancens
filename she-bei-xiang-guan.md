@@ -71,5 +71,22 @@
 * 参数相关说明:uid设备的uid,synchro是否自动同步时区1开启0不开启,time\_zone 时区,默认480
 * 接口相关说明:更新时区表和设备表,方便记录设备上次设备的时区.
 
+---
+
+---
+
+
+
+### 5.APP端查看分享设备转接token
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY](https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY)
+
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json"`
+
+* 接口相关说明:XXX参数为设备uid,YYY为好友id
+
+* 
+
+
 
 
