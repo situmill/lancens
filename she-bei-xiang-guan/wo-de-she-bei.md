@@ -32,14 +32,14 @@
 
 ### 4.更新用户一台设备\(序列号\):
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/device/0](https://weixin.lancens.com:6443/v1/api/user/device/0)
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/0" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
+* API接口:https://weixin.lancens.com:6443/v1/api/user/device/XXX
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
 * 参数说明:XXX参数为序列号,int整型,更新name设备名，:push 主设备是否接收推送,ispush是否接收来主设备离线的推送\(默认接收1\)
 
 ### 4.删除用户一台设备\(序列号\):
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/device/](https://weixin.lancens.com:6443/v1/api/user/device/0)XXX
-* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/0" -H  "accept: application/json"`
+* API接口:https://weixin.lancens.com:6443/v1/api/user/device/XXX
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json"`
 * 参数说明:XXX参数为序列号,int整型
 
 ### 5.删除用户一台设备\(UID\):
