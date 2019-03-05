@@ -86,7 +86,7 @@
 
   \*接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/message/token/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
 
-        \*
+    \*接口说明:XXX为序列号,
 
 * 删除一条手机**消息**推送令牌\(序列号\)
 
@@ -94,7 +94,7 @@
 
   \*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/token/0" -H  "accept: application/json"`
 
-  \*接口说明:XXX为序列号
+  \*接口说明:XXX为序列号,更新消息推送令牌push\_token（64） 与语言language（2-11）
 
 * ### 清除手机**消息**推送令牌
 
