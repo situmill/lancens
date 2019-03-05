@@ -21,9 +21,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"realm\": \"string\"}"`
 
-* 参数说明:
-
-
+* 参数说明:realm\(1-32\)
 
 
 
