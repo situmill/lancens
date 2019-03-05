@@ -32,9 +32,9 @@
 
 ### 4.更新用户一台设备\(序列号\):
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/device/0
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/device/0](https://weixin.lancens.com:6443/v1/api/user/device/0)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/0" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
-* 参数说明:XXX参数为序列号,int整型,
+* 参数说明:XXX参数为序列号,int整型,更新name设备名，推送是否开启\(push,ispush\)
 
 
 
