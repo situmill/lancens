@@ -66,7 +66,9 @@
 
   \*接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/message/token" -H  "accept: application/json"`
 
-    \\*返回数据表:
+  \*返回数据表:表3
+
+        \*表3
 
 * 更新手机**消息**推送令牌\(序列号\)  
   \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token/XXX](https://weixin.lancens.com:6443/v1/api/user/token/XXX)
