@@ -8,9 +8,23 @@
 
 ### 2.获取用户所有设备:
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/device
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/device](https://weixin.lancens.com:6443/v1/api/user/device)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json"`
-* 接口相关说明:
+* 返回参数::
+
+
+
+| id: | integer\($int64\) 设备id |
+| :--- | :--- |
+| uid: | string 由大写字母组成,固定长度20个字节 |
+| name: | string 由除英文特殊字符“~\`!@\#$%^&\*\(\)\_+-={}\|\[\]\:";&lt;&gt;?,./‘”组成,最大长度32个字节,最小长度1个字节 |
+| push: | number 是否接收推送信息（1开启 0关闭）（必传） |
+| ispush: | number 是否接收设备掉线通知\(0未开启1开启\)可选参数，默认开启1 |
+| wifi: | string 当前连的wifi，默认添加时为空\(选填参数，默认为空\) |
+| synchro: | number 是否自动更新时区\(为1自动更新时区为0不自动,int类型\)可选参数，默认开启1 |
+| time\_zone: | string 时区\(默认为东八区\(480\)\)可选参数 |
+
+
 
 
 
