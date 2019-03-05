@@ -16,7 +16,7 @@
 
 ### 登陆后需要为用户增加手机推送令牌
 
-#### 1.增加用户**响铃推送**令牌:
+#### 1.增加用户手机**响铃推送**令牌:
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
 
