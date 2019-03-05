@@ -31,5 +31,13 @@
 
 ---
 
-3.
+### 3.修改用户名\(修改登录用户名\)
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
+
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"realm\": \"string\"}"`
+
+* 参数说明:realm\(1-32\)
+
+
 
