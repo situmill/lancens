@@ -47,7 +47,13 @@
 
 #### 修改新游戏需要3步,第一步;更新用户表中的code,第二步发送该更新的code\(服务器处理\),邮箱获取code更新绑定新邮箱解绑旧邮箱
 
-1.
+#### 1.发送验证码到新邮箱,用于绑定新的邮箱\(修改为新邮箱\)
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/username](https://weixin.lancens.com:6443/v1/api/user/username)
+
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/username" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\"}"`
+
+* 参数说明:username\(6-32\)不能纯数字
 
 
 
