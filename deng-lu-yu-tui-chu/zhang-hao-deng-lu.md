@@ -2,12 +2,7 @@
 
 #### 1.用户手机**响铃推送**令牌相关接口:
 
-    1.
-
-    2.
-
-
-
+* 
 #### 2.用户手机**消息推送**令牌相关接口:
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/message/token](https://weixin.lancens.com:6443/v1/api/user/message/token)
