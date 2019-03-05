@@ -44,9 +44,9 @@
 
 ### 5.删除用户一台设备\(UID\):
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/XXX/device
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/XXX/device](https://weixin.lancens.com:6443/v1/api/user/XXX/device)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/XXX/device" -H  "accept: application/json"`
-* 参数说明:XXX参数为设备uid,32位
+* 参数说明:XXX参数为设备uid,20位
 
 
 
