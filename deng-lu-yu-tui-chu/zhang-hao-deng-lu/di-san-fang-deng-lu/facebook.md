@@ -4,15 +4,15 @@
 
 ### 1.Facebook登录接口
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/weixin/app/login](https://weixin.lancens.com:6443/v1/api/user/weixin/app/login)
+* API接口:[https://weixin.lancens.com:6443](https://weixin.lancens.com:6443/v1/api/user/weixin/app/login)/v1/api/user/facebook/app/login
 
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/weixin/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\",  \"openid\": \"string\"}"`
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/facebook/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\"}"`
 
 ### 2.Facebook登录接口说明
 
 * 重要参数:access\_token\(&lt;60\),openid\(28\).
 
-* Facebook授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
+* Facebook授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
 * 调用此接口，授权成功后会返回字段unionid ,openid ,通过查询Facebook绑定表,判断是否绑定用户.
 
