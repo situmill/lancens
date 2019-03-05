@@ -20,7 +20,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
 
-* 相关参数:
+* 相关重要参数:push,ispush,device,uid,name,time\_zone,synchro
 
 
 
