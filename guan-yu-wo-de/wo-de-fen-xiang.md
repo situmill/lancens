@@ -120,7 +120,29 @@
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H  "accept: application/json"`
 * 接口相关说明:根据XXX组名删除来自好友的分享设备,退出分享.
 
-### 
+---
+
+---
+
+### 8.APP端删除用户分享给好友的设备组\(组名\)
+
+* API接口:
+  [https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](#)
+* 接口请求:
+  `curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H "accept: application/json"`
+* 接口相关说明:根据XXX组名删除来自好友的分享设备,退出分享.
+
+---
+
+---
+
+### 8.APP端删除用户分享给好友的设备组\(组名\)
+
+* API接口:
+  [https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](#)
+* 接口请求:
+  `curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H "accept: application/json"`
+* 接口相关说明:根据XXX组名删除来自好友的分享设备,退出分享.
 
 
 
