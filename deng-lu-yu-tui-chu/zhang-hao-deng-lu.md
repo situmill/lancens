@@ -44,13 +44,15 @@
 | os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
 | push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
 
-* 删除一条手机响铃推送令牌\(序列号\)
+* ### 删除一条手机响铃推送令牌\(序列号\)
 
   \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token/XXX](https://weixin.lancens.com:6443/v1/api/user/token/XXX)
 
   \*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/token/0" -H  "accept: application/json"`
 
   \*接口说明:XXX为序列号.
+
+* 删除手机响铃推送令牌
 
 #### 2.用户手机**消息推送**令牌相关接口:
 
