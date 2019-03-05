@@ -72,10 +72,15 @@
 
 ### 6.APP端获取所有组名:
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"duid\": \"string\",  \"suids\": [    null  ],  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
-* 接口相关说明:单个设备uid 不能超过十个分享.
-* 参数说明:表1
-* 
+* API接口:https://weixin.lancens.com:6443/v1/api/device/app/group/share
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
+* 接口相关说明:获取用户分享的全部组名
+
+### 7.APP端获取所有组名:
+
+* API接口:https://weixin.lancens.com:6443/v1/api/device/app/group/share
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
+* 接口相关说明:获取用户分享的全部组名
+
 
 
