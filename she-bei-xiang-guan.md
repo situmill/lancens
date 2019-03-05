@@ -64,7 +64,7 @@
 
 ---
 
-### 4.APP端分享权限是否接收推送\(uid\)
+### 4.APP端设备的时区\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/name/XXX](https://weixin.lancens.com:6443/v1/api/device/share/name/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/name/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"remarkname\": \"string\"}"`
