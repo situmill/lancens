@@ -56,7 +56,7 @@
 
   \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
 
-    \\*接口请求:curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"
+  \*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"`
 
 #### 2.用户手机**消息推送**令牌相关接口:
 
