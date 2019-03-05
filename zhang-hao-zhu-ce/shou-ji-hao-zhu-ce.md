@@ -10,6 +10,10 @@
 
 * 接口相关说明：手机验证码有效期5分钟，手机号目前支持国内。
 
+---
+
+---
+
 ### 2.手机号注册
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
