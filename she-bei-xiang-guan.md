@@ -67,8 +67,8 @@
 ### 4.APP端修改设备的时区\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)
-* 接口请求:curl -X PUT "[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",\"synchro\": \"int\",\"time\_zone\": \"string\"}"
-* 接口相关说明:根据XXXuid 更新remarkname\(1-32\)设备的备注名称
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/time/zone" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",\"synchro\": \"int\",\"time_zone\": \"string\"}"`
+* 接口相关说明:uid设备的uid,synchro是否自动同步时区
 
 
 
