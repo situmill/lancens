@@ -118,7 +118,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H  "accept: application/json"`
-* 接口相关说明:根据XXX组名删除用户分享给好友的设备组.
+* 接口相关说明:根据XXX组名删除用户分享给好友的设备组.删除后好友被分享的设备也删除,不会显示该分享设备
 
 ---
 
@@ -128,7 +128,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX" -H  "accept: application/json"`
-* 接口相关说明:根据XXX序列号删除用户分享给好友的设备组
+* 接口相关说明:根据XXX序列号删除用户分享给好友的设备组,删除后好友被分享的设备也删除,不会显示该分享设备
 
 ---
 
@@ -140,7 +140,7 @@
   [https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](#)
 * 接口请求:
   `curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H "accept: application/json"`
-* 接口相关说明:根据XXX设备uid删除用户分享给好友的设备组.
+* 接口相关说明:根据XXX设备uid删除用户分享给好友的设备组.删除后好友被分享的设备也删除,不会显示该分享设备
 
 
 
