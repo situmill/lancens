@@ -49,9 +49,9 @@
 
 #### 1.发送验证码到新邮箱,用于绑定新的邮箱\(修改为新邮箱\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/username](https://weixin.lancens.com:6443/v1/api/user/username)
+* API接口:https://weixin.lancens.com:6443/v1/api/user/emailcode/email
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/username" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/emailcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
 * 参数说明:username\(6-32\)不能纯数字
 
