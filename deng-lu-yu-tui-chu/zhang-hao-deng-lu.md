@@ -22,7 +22,7 @@
 
 * 相关重要参数:token,bundleid,os,push\_platform,os\_token
 
-* 参数说明：
+* 参数说明:bundleid是服务器配置的证书,os是手机型号\(Huawei,Xiaomi等\),os\_token手机型号对应的推送token,push\_platform推送的平台\(HUAWEI,XIAOMI等\)
 
 
 
