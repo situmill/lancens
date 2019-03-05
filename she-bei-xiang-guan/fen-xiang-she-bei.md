@@ -42,6 +42,10 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/name/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"remarkname\": \"string\"}"`
 * 接口相关说明:根据XXXuid 更新remarkname\(1-32\)设备的备注名称
 
+---
+
+---
+
 ### 10.APP端分享权限是否接收推送\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/per/XXX](https://weixin.lancens.com:6443/v1/api/device/share/per/XXX)
