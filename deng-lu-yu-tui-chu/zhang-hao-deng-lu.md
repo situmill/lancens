@@ -104,9 +104,9 @@
 
 * ### 删除一条手机**消息**推送令牌\(序列号\)
 
-  \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token/XXX](https://weixin.lancens.com:6443/v1/api/user/token/XXX)
+  \*API接口:https://weixin.lancens.com:6443/v1/api/user/message/token/XXX
 
-  \*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/token/0" -H  "accept: application/json"`
+  \*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/message/token/XXX" -H  "accept: application/json"`
 
   \*接口说明:XXX为序列号
 
