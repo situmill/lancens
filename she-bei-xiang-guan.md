@@ -87,7 +87,7 @@
 
 ---
 
-### 6.APP端查看设备最后一次上下线
+### 6.APP端查看设备最后一次上下线状态
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)
 
