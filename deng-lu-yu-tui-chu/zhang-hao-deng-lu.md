@@ -16,6 +16,9 @@
 
 1.增加用户响铃推送令牌：
 
-* 
+* API接口:https://weixin.lancens.com:6443/v1/api/user/token
+
+* 接口请求:curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push\_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os\_token\": \"string\",  \"push\_platform\": \"string\"}"
+
 
 
