@@ -82,9 +82,9 @@
 
 * ### 更新手机**消息**推送令牌\(序列号\)
 
-  \*API接口:
+  \*API接口:https://weixin.lancens.com:6443/v1/api/user/message/token/XXX
 
-  \*接口请求:
+  \*接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/message/token/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
 
 * 删除一条手机**消息**推送令牌\(序列号\)
 
