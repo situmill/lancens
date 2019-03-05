@@ -63,7 +63,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/emails" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"code\": \"string\",  \"email\": \"string\"}"`
 
-* 参数说明:code为正确的邮箱验证码,
+* 参数说明:code为正确的邮箱验证码,email为该code对应的新邮箱地址.
 
 * 接口说明:请求此接口后会给用户邮箱发送一封邮件,获取到正确的验证码才可以修改邮箱
 
