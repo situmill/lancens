@@ -62,17 +62,9 @@
 
 * ### 查询手机**消息**推送令牌
 
-  | id: | integer\($int64\) Userid |
-  | :--- | :--- |
-  | push\_token: | string\* 手机推送令牌 |
-  | language: | string\* 手机语言 |
-  | dev: | integer\($int64\) 版本值\(0,1\)，默认是0,\(可以不传\) |
-  | bundleid: | string 包名,默认为公司包名,\(必须传\) |
-  | os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
-  | os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
-  | push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM |
+        \*API接口:
 
-* 更新手机**消息**推送令牌\(序列号\)
+* 更新手机**消息**推送令牌\(序列号\)  
   \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token/XXX](https://weixin.lancens.com:6443/v1/api/user/token/XXX)
 
   \*接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/token/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push\_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os\_token\": \"string\",  \"push\_platform\": \"string\"}"`
