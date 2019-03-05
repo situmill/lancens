@@ -90,7 +90,21 @@
 
   \*接口数据:表4
 
-    \*表4
+  \*表4
+
+
+
+| push\_token: | string\* 手机推送令牌 |
+| :--- | :--- |
+| language: | string\* 手机语言 |
+| id: | integer\($int64\) Userid |
+| dev: | integer\($int64\) ios版本值\(0为发布版,1为开发版本\)，默认是0,\(\) |
+| bundleid: | string 包名,默认为公司包名,\(\) |
+| os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
+| os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
+| push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
+
+
 
 * 删除一条手机**消息**推送令牌\(序列号\)
 
