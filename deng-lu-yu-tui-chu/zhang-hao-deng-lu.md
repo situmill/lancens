@@ -22,7 +22,7 @@
 
 * 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
 
-* 参数说明:token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是手机型号\(Huawei,Xiaomi等\),os\_token手机型号对应的推送token,push\_platform推送的平台\(HUAWEI,XIAOMI等\)
+* 参数说明:token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是手机型号\(Huawei,Xiaomi等\),os\_token手机型号对应的推送token,push\_platform推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
 
 
 
