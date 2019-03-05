@@ -10,6 +10,10 @@
 
 * 接口相关说明：正确邮箱格式，appname\(app名称默认空\)，language邮件的语言格式默认英文。
 
+---
+
+---
+
 ### 2.邮箱注册
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/email/register](https://weixin.lancens.com:6443/v1/api/email/register)
