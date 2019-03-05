@@ -12,7 +12,7 @@
 
 * 重要参数:access\_token.facebook授权的令牌
 
-* Facebook授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
+* Facebook授权接口:http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access\_token=XXX
 
 * 调用此接口，授权成功后会返回字段unionid ,openid ,通过查询Facebook绑定表,判断是否绑定用户.
 
