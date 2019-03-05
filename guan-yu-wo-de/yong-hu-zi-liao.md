@@ -47,7 +47,7 @@
 
 #### 修改新游戏需要3步,第一步;更新用户表中的code,第二步发送该更新的code\(服务器处理\),邮箱获取code更新绑定新邮箱解绑旧邮箱
 
-#### 1.发送验证码到新邮箱,用于绑定新的邮箱\(修改为新邮箱\)
+#### a.发送验证码到新邮箱,用于绑定新的邮箱\(修改为新邮箱\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/emailcode/email](https://weixin.lancens.com:6443/v1/api/user/emailcode/email)
 
@@ -57,7 +57,7 @@
 
 * 接口说明:请求此接口后会给用户邮箱发送一封邮件,获取到正确的验证码才可以修改邮箱
 
-#### 2.获取发送到新邮箱的验证码来修改新的邮箱地址\(通过新邮箱的验证码,修改为新邮箱\)
+#### b.获取发送到新邮箱的验证码来修改新的邮箱地址\(通过新邮箱的验证码,修改为新邮箱\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/emails](https://weixin.lancens.com:6443/v1/api/user/emails)
 
