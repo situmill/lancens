@@ -89,9 +89,9 @@
 
 ### 6.APP端查看设备最后一次上下线状态
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)
+* API接口:https://weixin.lancens.com:6443/v1/api/device/online
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/time/zone?uid=XXX" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/online?uid=XXX" -H  "accept: application/json"`
 
 * 接口相关说明:XXX参数为设备uid,数据返回time\_zone设备时区.
 
