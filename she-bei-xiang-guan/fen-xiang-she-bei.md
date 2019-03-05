@@ -93,9 +93,15 @@
 
 ### 8.APP端更新一组组名\(组名\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/group/share](https://weixin.lancens.com:6443/v1/api/device/app/group/share)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
-* 接口相关说明:获取用户分享的全部组名
+* API接口:https://weixin.lancens.com:6443/v1/api/device/share/app/XXX
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\"}"`
+* 接口相关说明:根据旧组名 更新新组名
+
+### 9.APP端更新一组组名\(组名\)
+
+* API接口:https://weixin.lancens.com:6443/v1/api/device/share/app/XXX
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\"}"`
+* 接口相关说明:根据旧组名 更新新组名
 
 
 
