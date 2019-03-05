@@ -77,9 +77,9 @@
 
 ### 5.APP端查看设备时区
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY](https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY)
+* API接口:https://weixin.lancens.com:6443/v1/api/user/time/zone
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/time/zone?uid=XXX" -H  "accept: application/json"`
 
 * 接口相关说明:XXX参数为设备uid,
 
