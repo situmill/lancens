@@ -45,7 +45,7 @@
 | per: | string 权限功能\("See\_video","Replay\_theater"，"Video\_intercom"，"Alarm\_push"\) |
 | suid: | string suid为好友id\(分享人的id\) |
 
-### 4.APP端根据设备uid查询分享设备相关信息\(UID\)
+### 4.APP端根据设备uid查询分享设备相关信息\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX](https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX" -H  "accept: application/json"`
@@ -103,7 +103,7 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/name/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"remarkname\": \"string\"}"`
 * 接口相关说明:根据XXXuid 更新备注名 ,remarkname\(1-32\)
 
-### 10.APP端更新设备的备注名\(uid\)
+### 10.APP端分享权限是否接收推送\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/name/XXX](https://weixin.lancens.com:6443/v1/api/device/share/name/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/name/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"remarkname\": \"string\"}"`
