@@ -111,9 +111,9 @@
 
 ### 11.APP端重新分享设备给好友\(组名\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/per/XXX](https://weixin.lancens.com:6443/v1/api/device/share/per/XXX)
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/per/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"status\": 0}"`
-* 接口相关说明:根据XXXuid 更新分享设备表 status 是否开启接收主设备推送 \(1接收0不接收\)默认接收推送\)
+* API接口:https://weixin.lancens.com:6443/v1/api/device/share/group/XXX
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/group/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"duid\": \"string\",  \"suids\": [    null  ],  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
+* 接口相关说明:根据XXX组名 删除某组好友分组分享,重新新建一个好友分享组,分享不超过10个人
 
 
 
