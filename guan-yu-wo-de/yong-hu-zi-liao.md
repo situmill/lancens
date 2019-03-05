@@ -57,11 +57,11 @@
 
 * 接口说明:请求此接口后会给用户邮箱发送一封邮件,获取到正确的验证码才可以修改邮箱
 
-#### 2.发送验证码到新邮箱,用于绑定新的邮箱\(修改为新邮箱\)
+#### 2.获取发送到新邮箱的验证码来修改新的邮箱地址\(通过新邮箱的验证码,修改为新邮箱\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/emailcode/email](https://weixin.lancens.com:6443/v1/api/user/emailcode/email)
+* API接口:https://weixin.lancens.com:6443/v1/api/user/emails
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/emailcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/emails" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"code\": \"string\",  \"email\": \"string\"}"`
 
 * 参数说明:appnameAPP名称用于显示邮件出处\(默认空\),language邮件的语言\(默认en\),
 
