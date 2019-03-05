@@ -86,7 +86,7 @@
 
         \*接口请求:\`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/token/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push\\\_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os\\\_token\": \"string\",  \"push\\\_platform\": \"string\"}"\\`
 
-\*接口说明:XXX为序列号,更新响铃推送令牌push\\_token（64） 与语言language（2-11）
+        \*接口说明:XXX为序列号,更新响铃推送令牌push\\_token（64） 与语言language（2-11）
 
 \*接口数据:表2
 
