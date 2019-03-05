@@ -20,7 +20,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
 
-* 相关重要参数:token,bundleid,os,push\_platform,os\_token
+* 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
 
 * 参数说明:token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是手机型号\(Huawei,Xiaomi等\),os\_token手机型号对应的推送token,push\_platform推送的平台\(HUAWEI,XIAOMI等\)
 
