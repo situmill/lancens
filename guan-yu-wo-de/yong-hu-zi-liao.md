@@ -33,11 +33,11 @@
 
 ### 3.修改用户名\(修改登录用户名\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/username
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/username](https://weixin.lancens.com:6443/v1/api/user/username)
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/username" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\"}"`
 
-* 参数说明:realm\(1-32\)
+* 参数说明:username\(6-32\)不能纯数字
 
 
 
