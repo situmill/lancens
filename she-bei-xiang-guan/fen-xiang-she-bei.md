@@ -93,13 +93,13 @@
 
 ### 8.APP端更新一组组名\(组名\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/device/share/app/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app/XXX](https://weixin.lancens.com:6443/v1/api/device/share/app/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\"}"`
 * 接口相关说明:根据旧组名 更新新组名
 
-### 9.APP端更新一组组名\(组名\)
+### 9.APP端更新设备的备注名\(uid\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/device/share/app/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app/XXX](https://weixin.lancens.com:6443/v1/api/device/share/app/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\"}"`
 * 接口相关说明:根据旧组名 更新新组名
 
