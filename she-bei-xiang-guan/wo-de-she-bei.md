@@ -10,9 +10,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device](https://weixin.lancens.com:6443/v1/api/user/device)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json"`
-* 返回参数::
-
-
+* 返回参数:
 
 | id: | integer\($int64\) 设备id |
 | :--- | :--- |
@@ -23,8 +21,6 @@
 | wifi: | string 当前连的wifi，默认添加时为空\(选填参数，默认为空\) |
 | synchro: | number 是否自动更新时区\(为1自动更新时区为0不自动,int类型\)可选参数，默认开启1 |
 | time\_zone: | string 时区\(默认为东八区\(480\)\)可选参数 |
-
-
 
 
 
