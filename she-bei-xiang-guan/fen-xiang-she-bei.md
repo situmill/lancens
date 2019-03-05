@@ -111,9 +111,22 @@
 
 ### 11.APP端重新分享设备给好友\(组名\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/device/share/group/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group/XXX](https://weixin.lancens.com:6443/v1/api/device/share/group/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/group/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"duid\": \"string\",  \"suids\": [    null  ],  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:根据XXX组名 删除某组好友分组分享,重新新建一个好友分享组,分享不超过10个人
+* 数据格式:表5
+* 表5
+
+| group\_name: | string 新组名 |
+| :--- | :--- |
+| duid: | string 设备uid |
+| suids: | \[\] description:好友id\[52,50,51\]  |
+| starttime: | string 分享开始时间\(分钟\) |
+| endtime: | string 分享结束时间\(分钟\) |
+| per: | \[\] description:权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\]  |
+| status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
+
+
 
 
 
