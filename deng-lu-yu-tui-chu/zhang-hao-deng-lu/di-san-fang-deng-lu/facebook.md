@@ -8,6 +8,10 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/facebook/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\"}"`
 
+---
+
+---
+
 ### 2.Facebook登录接口说明
 
 * 重要参数:access\_token.facebook授权的令牌
