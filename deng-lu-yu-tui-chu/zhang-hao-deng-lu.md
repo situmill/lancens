@@ -22,5 +22,7 @@
 
 * 相关重要参数:token,bundleid,os,push\_platform,os\_token
 
+* 参数说明：
+
 
 
