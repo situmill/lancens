@@ -16,7 +16,8 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:curl -X GET "[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)" -H  "accept: application/json"
-* 返回参数:
+* 返回参数表1:
+* 表1如下
 
 | id: | integer\($int64\) 设备id |
 | :--- | :--- |
