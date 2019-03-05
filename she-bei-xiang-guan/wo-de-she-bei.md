@@ -42,13 +42,11 @@
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/0" -H  "accept: application/json"`
 * 参数说明:XXX参数为序列号,int整型
 
-### 5.删除用户一台设备\(序列号\):
+### 5.删除用户一台设备\(UID\):
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/0](https://weixin.lancens.com:6443/v1/api/user/device/0)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/0" -H  "accept: application/json"`
 * 参数说明:XXX参数为序列号,int整型
-
-
 
 
 
