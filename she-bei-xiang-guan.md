@@ -20,6 +20,10 @@
 | endtime: | string 为分享设备时才有结束时间 |
 | per: | string 为分享设备时才有权限 |
 
+---
+
+---
+
 ### 2.APP端查看分享设备转接token
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY](https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY)
