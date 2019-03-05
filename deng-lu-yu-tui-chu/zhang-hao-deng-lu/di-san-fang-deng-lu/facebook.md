@@ -10,7 +10,7 @@
 
 ### 2.Facebook登录接口说明
 
-* 重要参数:access\_token.
+* 重要参数:access\_token.facebook授权的令牌
 
 * Facebook授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
