@@ -21,7 +21,7 @@
 
 ---
 
-### 4.APP端根据设备uid查询分享设备相关信息\(uid\)
+### 2.APP端根据设备uid查询分享设备相关信息\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX](https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX" -H  "accept: application/json"`
@@ -32,7 +32,7 @@
 
 ---
 
-### 5.APP端根据设备uid查询分享设备相关信息\(组名\)
+### 3.APP端根据设备uid查询分享设备相关信息\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX](https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX" -H  "accept: application/json"`
@@ -54,7 +54,7 @@
 
 ---
 
-### 6.APP端获取所有组名
+### 4.APP端获取所有组名
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/group/share](https://weixin.lancens.com:6443/v1/api/device/app/group/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
@@ -64,7 +64,7 @@
 
 ---
 
-### 7.APP端为用户更新一个分享给好友的设备\(序列号\)
+### 5.APP端为用户更新一个分享给好友的设备\(序列号\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
@@ -83,7 +83,7 @@
 
 ---
 
-### 8.APP端更新一组组名\(组名\)
+### 6.APP端更新一组组名\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app/XXX](https://weixin.lancens.com:6443/v1/api/device/share/app/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\"}"`
@@ -93,7 +93,7 @@
 
 ---
 
-### 11.APP端重新分享设备给好友\(组名\)
+### 7.APP端重新分享设备给好友\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group/XXX](https://weixin.lancens.com:6443/v1/api/device/share/group/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/group/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"duid\": \"string\",  \"suids\": [    null  ],  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
@@ -114,7 +114,7 @@
 
 ---
 
-### 12.APP端删除用户分享给好友的设备组\(组名\)
+### 8.APP端删除用户分享给好友的设备组\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H  "accept: application/json"`
