@@ -6,6 +6,10 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"password\": \"string\"}"`
 
+---
+
+---
+
 ### 2.用户账号登录接口说明
 
 * 重要参数:username\(6-32\),password\(8-16\),reflash\_key\(token令牌有效期默认一个月时间戳\).
