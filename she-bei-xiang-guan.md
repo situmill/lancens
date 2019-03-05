@@ -44,6 +44,10 @@
 | time: | string 转接时间\(分钟\) |
 | status: | number 状态 |
 
+---
+
+---
+
 ### 3.APP端生成分享设备转接token\(type=100为推送分享转接\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer](https://weixin.lancens.com:6443/v1/api/device/app/transfer)
