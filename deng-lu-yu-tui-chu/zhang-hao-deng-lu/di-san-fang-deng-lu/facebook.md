@@ -18,7 +18,7 @@
 
 * 若Facebook表中已绑定用户则直接登录绑定的账号.
 
-* 若未绑定用户则新建一个用户,默认用户名fb\_XXX\(20\),密码随机10位,服务器先调用API:[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号,再调用API接口: [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录,最后再调API:[https://weixin.lancens.com/v1/api/user/weixin/app](https://weixin.lancens.com/v1/api/user/weixin/app) 成功后新增记录绑定到Facebook表中,下次无需再建账号.
+* 若未绑定用户则新建一个用户,默认用户名fb\_XXX\(20\),密码随机10位,服务器先调用API:[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号,再调用API接口: [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录,最后再新增记录绑定到Facebook表中,下次无需再建账号.
 
 * 登录成功后返回数据格式:
 
