@@ -1,6 +1,6 @@
 # 设备相关：
 
-### 1.根据uid获取播放的token,\(获取观看token，判断设备属于自己还是来自分享\)
+### 1.根据uid获取播放的token,\(获取观看视频token，判断设备属于自己还是来自分享\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token](https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token)
 
