@@ -134,7 +134,7 @@
 
 ---
 
-### 10.APP端删除用户分享给好友的设备组\(组名\)
+### 10.APP端删除用户分享给好友的设备组\(uid\)
 
 * API接口:
   [https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](#)
