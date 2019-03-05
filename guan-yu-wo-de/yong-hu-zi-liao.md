@@ -17,5 +17,5 @@
 | phone: | string 电话号码,最大长度20个字节 |
 | userStatus: | integer\($int32\) 用户当前状态，是否已验证 |
 
-
+2.
 
