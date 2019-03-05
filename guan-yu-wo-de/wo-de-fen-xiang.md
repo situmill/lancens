@@ -136,10 +136,8 @@
 
 ### 10.APP端删除用户分享给好友的设备组\(uid\)
 
-* API接口:
-  [https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](#)
-* 接口请求:
-  `curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H "accept: application/json"`
+* API接口:https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share" -H  "accept: application/json"`
 * 接口相关说明:根据XXX设备uid删除用户分享给好友的设备组.删除后好友被分享的设备也删除,不会显示该分享设备
 
 
