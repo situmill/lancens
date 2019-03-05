@@ -40,11 +40,11 @@
 | time: | string 转接时间\(分钟\) |
 | status: | number 状态 |
 
-### 3.APP端查看分享设备转接token
+### 3.APP端生成分享设备转接token\(type=100为推送分享转接\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY](https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY)
+* API接口:https://weixin.lancens.com:6443/v1/api/device/app/transfer
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json"`
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/transfer" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"duid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
 
 * 接口相关说明:XXX参数为设备uid,YYY为好友id
 
