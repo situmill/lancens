@@ -13,9 +13,9 @@
 
 ### 2.获取当前用户下某设备的历史事件信息\(传uid多个参数\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/event\_record/ZZZ/devicees?page=XXX&page\_number=YYY
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/event\_record/ZZZ/devicees?page=XXX&page\_number=YYY](https://weixin.lancens.com:6443/v1/api/user/event_record/ZZZ/devicees?page=XXX&page_number=YYY)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/event_record/ZZZ/devicees?page=XXX&page_number=YYY" -H  "accept: application/json"`
-* 接口说明:XXX为页数,YYY为页显示的条数 ,比如\(0,50\) 按50条一页显示.
+* 接口说明:XXX为页数,YYY为页显示的条数,ZZZ为设备uid ,比如\(0,50\) 按50条一页显示.
 * 返回数据:表1
 
 * 表1
