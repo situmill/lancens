@@ -91,7 +91,7 @@
 | per: | \[...\] |
 | status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
 
-### 8.APP端更新一组组名
+### 8.APP端更新一组组名\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/group/share](https://weixin.lancens.com:6443/v1/api/device/app/group/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
