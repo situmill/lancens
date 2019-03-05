@@ -8,7 +8,21 @@
 
   \* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"`
 
-   \* 接口说明:
+  \* 返回数据表1:
+
+        \*表1
+
+| id: | integer\($int64\) Userid |
+| :--- | :--- |
+| push\_token: | string\* 手机推送令牌 |
+| language: | string\* 手机语言 |
+| dev: | integer\($int64\) 版本值\(0,1\)，默认是0,\(可以不传\) |
+| bundleid: | string 包名,默认为公司包名,\(必须传\) |
+| os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
+| os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
+| push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
+
+
 
 #### 2.用户手机**消息推送**令牌相关接口:
 
