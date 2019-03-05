@@ -1,10 +1,40 @@
-# 账号登录分两大模块:
+### 用户通过用户名或第三方实现登录,登陆后返回数据格式:
 
-### 1.用户名登录
+`{`
 
-### 2.第三方登录
+`"id": id,`
 
-# 账号退出：
+`"token": token,`
+
+`"reflash_key": reflash_key,`
+
+`"time": reflash_time`
+
+`}`
+
+### 登录成功获取数据后,APP需要保存返回的token用户令牌,API接口的调用都需要用此token来获取用户方可操作.
+
+### 登陆后需要为用户增加手机推送令牌
+
+#### 1.增加用户手机**响铃推送**令牌:
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
+
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
+
+* 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
+
+* 参数说明:push\_token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是安卓手机型号\(Huawei,Xiaomi等\),os\_token是安卓手机型号对应的推送token,push\_platform安卓系统推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
+
+#### 2.增加用户手机**消息推送**令牌:
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/message/token](https://weixin.lancens.com:6443/v1/api/user/message/token)
+
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/message/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\",  \"id\": 0,  \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
+
+* 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
+
+* 参数说明:push\_token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是安卓手机型号\(Huawei,Xiaomi等\),os\_token是安卓手机型号对应的推送token,push\_platform安卓系统推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
 
 
 
