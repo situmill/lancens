@@ -12,7 +12,9 @@
 
 * type=4:低电压事件
 
-* type=5:
+* type=5:锁事件LOCK
+
+* tyoe=6:门锁事件LOCKPUSH
 
 
 
