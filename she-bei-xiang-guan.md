@@ -83,5 +83,28 @@
 
 * 接口相关说明:XXX参数为设备uid,数据返回time\_zone设备时区.
 
+---
+
+---
+
+### 6.APP端查看设备时区
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/time/zone" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",\"synchro\": \"int\",\"time_zone\": \"string\"}"`
+* 参数相关说明:uid设备的uid,synchro是否自动同步时区1开启0不开启,time\_zone 时区,默认480
+* 接口相关说明:更新时区表和设备表,方便记录设备上次设备的时区.
+
+---
+
+---
+
+### 7.APP端查看设备时区
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/time/zone](https://weixin.lancens.com:6443/v1/api/user/time/zone)
+
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/time/zone?uid=XXX" -H  "accept: application/json"`
+
+* 接口相关说明:XXX参数为设备uid,数据返回time\_zone设备时区.
+
 
 
