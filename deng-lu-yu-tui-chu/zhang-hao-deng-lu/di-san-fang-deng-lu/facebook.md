@@ -4,13 +4,13 @@
 
 ### 1.Facebook登录接口
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/facebook/app/login
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/facebook/app/login](https://weixin.lancens.com:6443/v1/api/user/facebook/app/login)
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/facebook/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\"}"`
 
 ### 2.Facebook登录接口说明
 
-* 重要参数:access\_token\(&lt;60\),openid\(28\).
+* 重要参数:access\_token.
 
 * Facebook授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
