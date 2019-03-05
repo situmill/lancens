@@ -1,6 +1,6 @@
 ## 关于我的分享设备
 
-### 2.APP端获取所有主动分享给好友的设备列表
+### 1.APP端获取所有主动分享给好友的设备列表
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json"`
@@ -11,7 +11,7 @@
 
 ---
 
-### 3.APP端获取所有被动分享给好友的设备列表
+### 2.APP端获取所有被动分享给好友的设备列表
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app](https://weixin.lancens.com:6443/v1/api/device/share/app)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/app" -H  "accept: application/json"`
@@ -36,7 +36,7 @@
 
 ---
 
-### 9.APP端分享权限是否接收推送\(uid\)
+### 3.APP端分享权限是否接收推送\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/name/XXX](https://weixin.lancens.com:6443/v1/api/device/share/name/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/name/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"remarkname\": \"string\"}"`
@@ -46,7 +46,7 @@
 
 ---
 
-### 10.APP端分享权限是否接收推送\(uid\)
+### 4.APP端分享权限是否接收推送\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/per/XXX](https://weixin.lancens.com:6443/v1/api/device/share/per/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/per/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"status\": 0}"`
@@ -56,9 +56,7 @@
 
 ---
 
-### 
-
-### 13.APP端删除来自好友的分享设备\(uid\)
+### 5.APP端删除来自好友的分享设备\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/app/device/share/XXX](https://weixin.lancens.com:6443/v1/api/app/device/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/app/device/share/XXX" -H  "accept: application/json"`
