@@ -21,42 +21,6 @@
 
 ---
 
-### 2.APP端获取所有主动分享给好友的设备列表
-
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json"`
-
-* 返回数据:表2
-
----
-
----
-
-### 3.APP端获取所有被动分享给好友的设备列表
-
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app](https://weixin.lancens.com:6443/v1/api/device/share/app)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/app" -H  "accept: application/json"`
-
-* 返回数据:表2
-
-* 表2
-
-| img: | string 分享设备缩略图 |
-| :--- | :--- |
-| endtime: | string 分享结束时间\(分钟\) |
-| group\_name: | string 组名 |
-| remarkname: | string 分享设备备注 |
-| duid: | string 用户设备uid |
-| starttime: | string 分享开始时间\(分钟\) |
-| status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
-| id: | integer\($int64\) id |
-| per: | string 权限功能\("See\_video","Replay\_theater"，"Video\_intercom"，"Alarm\_push"\) |
-| suid: | string suid为好友id\(分享人的id\) |
-
----
-
----
-
 ### 4.APP端根据设备uid查询分享设备相关信息\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX](https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX)
@@ -187,8 +151,6 @@
 * 接口相关说明:根据XXXuid 删除来自好友的分享设备,退出分享.
 
 ### 
-
-
 
 
 
