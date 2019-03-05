@@ -56,7 +56,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX](https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX" -H  "accept: application/json"`
-* 接口相关说明:suid 好友id friendname好友名 realm 备注名 group\_name组名,starttime endtime per权限 status 是否接收推送或历史记录  device 设备类型 
+* 接口相关说明:suid 好友id friendname好友名 realm 备注名 group\_name组名,starttime endtime per权限 status 是否接收推送或历史记录  device 设备类型 ,XXX传组名
 * 返回数据:表3
 * 表3
 
@@ -70,15 +70,15 @@
 | per: | string 权限功能\("See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\) |
 | status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
 
-### 6.APP端获取所有组名:
+### 6.APP端获取所有组名
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/group/share](https://weixin.lancens.com:6443/v1/api/device/app/group/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
 * 接口相关说明:获取用户分享的全部组名
 
-### 7.APP端获取所有组名:
+### 7.APP端为用户更新一个分享给好友的设备\(序列号\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/device/app/share/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:获取用户分享的全部组名
 
