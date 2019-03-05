@@ -21,7 +21,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json"`
 
-* 参数说明:
+* 返回数据:
 
   | img: | string 分享设备缩略图 |
   | :--- | :--- |
