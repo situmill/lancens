@@ -10,7 +10,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device](https://weixin.lancens.com:6443/v1/api/user/device)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json"`
-* 返回参数如下表格:
+* 返回参数如下表格1:
 
 ### 3.获取用户单个设备:
 
