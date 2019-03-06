@@ -88,7 +88,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend](https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend" -H  "accept: application/json"`
 
-* 接口说明:XXX为序列号,取消好友的好友申请,拒接添加此好友
+* 接口说明:XXX为序列号,取消好友的好友申请,用户拒接添加此好友
 
 * 数据格式:表3
 
