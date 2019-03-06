@@ -65,14 +65,10 @@
 
 表3
 
-{
-
 | duid: | string 设备uid |
 | :--- | :--- |
 | suid: | string 好友id |
 | status: | number 状态 |
-
-}
 
 ---
 
