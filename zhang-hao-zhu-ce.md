@@ -11,7 +11,7 @@
 * ##### 微信:用户名wx\_XXX
 * ##### Facebook:用户名fb\_XXX
 
-##### 
+##### 账号注册需要向lancens获取提供的apikey才能完成注册.默认为lancens用户.
 
 
 
