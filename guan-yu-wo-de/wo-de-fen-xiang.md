@@ -100,8 +100,9 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group/XXX](https://weixin.lancens.com:6443/v1/api/device/share/group/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/group/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"duid\": \"string\",  \"suids\": [    null  ],  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:根据XXX组名 删除某组好友分组分享,重新新建一个好友分享组,分享不超过10个人
-* 数据格式:表5
-* 表5
+* 数据格式:表4
+
+表4
 
 | group\_name: | string 新组名 |
 | :--- | :--- |
