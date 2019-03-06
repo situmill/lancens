@@ -10,7 +10,7 @@
 
 表1
 
-| username: | string\*用户名 |
+| description: | 用户账号退出接口参数 |
 | :--- | :--- |
 | username | string \*用户名 |
 | token: | string\*登录令牌 |
