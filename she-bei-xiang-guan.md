@@ -1,6 +1,8 @@
 # 设备相关：
 
-### 观看视频,转接视频,设备时区,设备上下线
+### 观看视频,转接视频,设备时区,设备上下线.
+
+设备触发事件,根据分享好友的权限可以关联操作.
 
 ### 1.根据uid获取播放的token,\(获取观看视频token，判断设备属于自己还是来自分享\)
 
@@ -32,7 +34,7 @@
 
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json"`
 
-* 接口相关说明:XXX参数为设备uid,YYY为好友id
+* 接口相关说明:XXX参数为设备uid,YYY为好友id,只能转接被分享的好友
 
 * 参数说明:表2
 
