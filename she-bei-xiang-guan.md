@@ -62,6 +62,18 @@
 
 * 备注说明:转接好友在线会推送响铃给好友,不在线的话不会接收到该次响铃转接.转接后可以观看,对讲等
 
+* 数据格式:表3
+
+表3
+
+| id: | integer\($int64\) id |
+| :--- | :--- |
+| duid: | string 用户设备uid |
+| suid: | string suid为好友id,uid为自己ID |
+| transfertoken: | string 转接token |
+| time: | string 转接时间\(分钟\) |
+| status: | number 状态 |
+
 ---
 
 ---
