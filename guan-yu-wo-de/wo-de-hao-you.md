@@ -155,8 +155,8 @@
 
 ### 8.通过设备UID屏蔽分享过的好友\(显示可以分享的好友列表\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json"`
+* API接口:https://weixin.lancens.com:6443/v1/api/shield/share/friend?uid=XXX
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/shield/share/friend?uid=XXX" -H  "accept: application/json"`
 
 * 接口说明:返回的好友列表按顺序排序
 
