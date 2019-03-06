@@ -33,5 +33,14 @@
 | suid: | int好友id |
 | status: | number 状态 |
 
+### 3.申请添加好友，先添加到好友申请表中
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
+* 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认1
+* 接口说明:申请添加好友后,好友将收到添加好友的推送type=200为好友消息推送
+* 数据格式:表2
+
+* 
 
 
