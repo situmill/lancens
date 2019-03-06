@@ -71,8 +71,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:传序列号更新对应的分享设备信息（权限,名字等）
-* 参数说明:表4
-* 表4
+* 数据格式:表3
+* 表3
 
 | group\_name: | string 组名 |
 | :--- | :--- |
