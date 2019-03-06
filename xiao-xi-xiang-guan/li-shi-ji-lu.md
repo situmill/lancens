@@ -6,7 +6,7 @@
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/deviceses/event_record?page=XXX&page_number=YYY" -H  "accept: application/json"`
 * 接口说明:XXX为页数,YYY为页显示的条数 ,比如\(0,50\) 按50条一页显示.
 * 参数说明:img保存的是base64格式,需要解码后才能显示正确图片地址
-* 返回数据:表1
+* 数据格式:表1
 
 ---
 
@@ -18,7 +18,7 @@
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/event_record/ZZZ/devicees?page=XXX&page_number=YYY" -H  "accept: application/json"`
 * 接口说明:XXX为页数,YYY为页显示的条数,ZZZ为设备uid ,比如\(0,50\) 按50条一页显示.
 * 参数说明:img保存的是base64格式,需要解码后才能显示正确图片地址
-* 返回数据:表1
+* 数据格式:表1
 
 表1
 
