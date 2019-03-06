@@ -27,7 +27,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device](https://weixin.lancens.com:6443/v1/api/user/device)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json"`
-* 返回参数如下表格1:
+* 数据格式:表2
 
 ---
 
@@ -38,8 +38,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:curl -X GET "[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)" -H  "accept: application/json"
 * 参数说明:XXX参数为序列号,int整型.
-* 返回参数表1:
-* 表1如下
+* 数据格式:表2
+* 表2
 
 | id: | integer\($int64\) 设备id |
 | :--- | :--- |
