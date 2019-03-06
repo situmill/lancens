@@ -80,5 +80,13 @@
 * 接口说明:申请添加好友到临时好友表中后,才可以调用此接口添加好友到好友列表
 * 返回数据:表2
 
+### 6.查看用户好友列表
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
+* 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认0
+* 接口说明:申请添加好友到临时好友表中后,才可以调用此接口添加好友到好友列表
+* 返回数据:表2
+
 
 
