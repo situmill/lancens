@@ -7,7 +7,7 @@
 * 接口相关说明:单个设备uid 不能超过十个分享.
 * 数据格式:表1
 
-表1
+### 表1
 
 | duid: | string 设备uid |
 | :--- | :--- |
@@ -40,7 +40,7 @@
 * 接口相关说明:suid 好友id friendname好友名 realm 备注名 group\_name组名,starttime endtime per权限 status 是否接收推送或历史记录  device 设备类型 ,XXX传组名group
 * 返回数据:表2
 
-表2
+### 表2
 
 | suid: | string 好友id |
 | :--- | :--- |
@@ -72,7 +72,8 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:传序列号更新对应的分享设备信息（权限,名字等）
 * 数据格式:表3
-* 表3
+
+### 表3
 
 | group\_name: | string 组名 |
 | :--- | :--- |
@@ -102,7 +103,7 @@
 * 接口相关说明:根据XXX组名 删除某组好友分组分享,重新新建一个好友分享组,分享不超过10个人
 * 数据格式:表4
 
-表4
+### 表4
 
 | group\_name: | string 新组名 |
 | :--- | :--- |
