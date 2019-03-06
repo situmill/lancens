@@ -18,10 +18,10 @@
 | mail: | string 邮箱 |
 | realm: | string 昵称 |
 
-### 2.查找是否存在好友\(查询好友\)
+### 2.申请添加好友，先添加到好友申请表中
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX](https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX" -H  "accept: application/json"`
+* API接口:https://weixin.lancens.com:6443/v1/api/add/share/friend
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
 * 参数说明:通过XXX手机号，邮箱，用户名查询用户是否存在.
 * 返回数据:表1
 
