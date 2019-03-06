@@ -86,7 +86,10 @@
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json"`
 
 * 接口说明:返回的好友列表按顺序排序
+
 * 返回数据:表4
+
+
 
 表4
 
