@@ -82,12 +82,10 @@
 * 接口相关说明:更新时区表和设备表,方便记录设备上次设备的时区.
 * 数据格式:表4
 
-| duid: | string 用户设备uid |
+| uid: | string 用户设备uid |
 | :--- | :--- |
-| suid: | string suid为好友id,uid为自己ID |
-| transfertoken: | string 转接token |
-| time: | string 转接时间\(分钟\) |
-| status: | number 状态 |
+| synchro: | int 是否自动同步 |
+| time\_zone: | string 时区值默认480 |
 
 ---
 
