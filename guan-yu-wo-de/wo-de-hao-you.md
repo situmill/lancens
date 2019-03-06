@@ -41,7 +41,7 @@
 
 ---
 
-### 3.查看用户主动申请添加好友,没有同意加好友的列表\(主动\)
+### 3.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json"`
