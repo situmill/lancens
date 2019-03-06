@@ -145,7 +145,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX" -H  "accept: application/json"`
 
-* 接口说明:XXX为序列号,取消好友的好友申请,用户拒接添加此好友
+* 接口说明:XXX为序列号,删除好友成功后,彼此的好友信息都删除,彼此间分享的设备也都会删除.
 
 
 
