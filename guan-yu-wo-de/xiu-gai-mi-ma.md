@@ -2,7 +2,7 @@
 
 ### 1.通过旧密码修改密码
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/user/password)
+* API接口:https://weixin.lancens.com:6443/v1/api/user/password
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"oldpassword\": \"string\"}"`
 
