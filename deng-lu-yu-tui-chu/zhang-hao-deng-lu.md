@@ -70,9 +70,9 @@
 
   \*接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/message/token" -H  "accept: application/json"`
 
-  \*返回数据表:表3
+  \*数据格式:表3
 
-  \*表3
+### 表3
 
 | id: | integer\($int64\) Userid |
 | :--- | :--- |
