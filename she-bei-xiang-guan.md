@@ -66,13 +66,14 @@
 
 表3
 
-| id: | integer\($int64\) id |
+{
+
+| duid: | string 设备uid |
 | :--- | :--- |
-| duid: | string 用户设备uid |
-| suid: | string suid为好友id,uid为自己ID |
-| transfertoken: | string 转接token |
-| time: | string 转接时间\(分钟\) |
+| suid: | string 好友id |
 | status: | number 状态 |
+
+}
 
 ---
 
@@ -84,6 +85,15 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/time/zone" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",\"synchro\": \"int\",\"time_zone\": \"string\"}"`
 * 参数相关说明:uid设备的uid,synchro是否自动同步时区1开启0不开启,time\_zone 时区,默认480
 * 接口相关说明:更新时区表和设备表,方便记录设备上次设备的时区.
+* 数据格式:表4
+
+| id: | integer\($int64\) id |
+| :--- | :--- |
+| duid: | string 用户设备uid |
+| suid: | string suid为好友id,uid为自己ID |
+| transfertoken: | string 转接token |
+| time: | string 转接时间\(分钟\) |
+| status: | number 状态 |
 
 ---
 
