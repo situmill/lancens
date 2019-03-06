@@ -4,8 +4,9 @@
 
 1.查找是否存在好友\(查询好友\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX](https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX" -H  "accept: application/json"`
+* 参数说明:
 
 ### 
 
