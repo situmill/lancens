@@ -6,7 +6,7 @@
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json"`
 * 数据格式:表1
 
-表1
+### 表1
 
 | description: | 用户账号信息 |
 | :--- | :--- |
@@ -74,7 +74,7 @@
 
 * 数据格式:表2
 
-表2
+### 表2
 
 | code: | string\* 邮箱收到的验证码 |
 | :--- | :--- |
