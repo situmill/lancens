@@ -136,5 +136,16 @@
 
 * 接口说明:XXX为序列号,realm为好友的备注名\(1-32\)
 
+---
+
+---
+
+### 10.删除用户帐号中一个好友
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend](https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend)
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend" -H  "accept: application/json"`
+
+* 接口说明:XXX为序列号,取消好友的好友申请,用户拒接添加此好友
+
 
 
