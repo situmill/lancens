@@ -61,6 +61,14 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
 * 参数说明:XXX参数为序列号,int整型,更新name设备名，:push 主设备是否接收推送,ispush是否接收来主设备离线的推送\(默认接收1\)
+* 数据格式:表3
+
+表3
+
+| name: | string 由除英文特殊字符“~\`!@\#$%^&\*\(\)\_+-={}\|\[\]\:";&lt;&gt;?,./‘”组成,最大长度32个字节,最小长度1个字节 |
+| :--- | :--- |
+| push: | number 是否接收推送信息\(0未开启,1为开启,int类型\) |
+| ispush: | number 是否接收设备掉线推送通知\(0未开启,1为开启,int类型\) |
 
 ---
 
