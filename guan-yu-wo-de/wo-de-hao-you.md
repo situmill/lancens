@@ -72,7 +72,7 @@
 | username: | string 自己用户名 |
 | status: | number 状态 |
 
-### 5.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
+### 5.删除用户账号中一个主动临时添加好友申请\(主动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json"`
@@ -85,7 +85,7 @@
 
 ---
 
-### 6.查看用户被好友申请添加的好友的列表\(被动\)
+### 6.删除用户账号中一个被动临时添加好友申请\(被动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/share](https://weixin.lancens.com:6443/v1/api/add/friend/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/friend/share" -H  "accept: application/json"`
