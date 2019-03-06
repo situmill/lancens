@@ -147,5 +147,19 @@
 
 * 接口说明:XXX为序列号,删除好友成功后,彼此的好友信息都删除,彼此间分享的设备也都会删除.
 
+---
+
+---
+
+---
+
+### 8.查看用户已添加的好友列表
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json"`
+
+* 接口说明:返回的好友列表按顺序排序
+
+* 
 
 
