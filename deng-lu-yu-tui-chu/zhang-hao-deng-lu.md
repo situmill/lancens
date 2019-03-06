@@ -8,9 +8,9 @@
 
   \* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"`
 
-  \* 返回数据表1:
+  \* 数据格式:表1
 
-  \*表1
+### 表1
 
 | id: | integer\($int64\) Userid |
 | :--- | :--- |
@@ -30,9 +30,9 @@
 
   \*接口说明:XXX为序列号,更新响铃推送令牌push\_token（64） 与语言language（2-11）
 
-  \*接口数据:表2
+  \*数据格式:表2
 
-  \*表2
+### 表2
 
 | push\_token: | string\* 手机推送令牌 |
 | :--- | :--- |
