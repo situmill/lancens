@@ -22,7 +22,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
-* 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,
+* 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认1
 * 返回数据:表1
 
 * 表1
