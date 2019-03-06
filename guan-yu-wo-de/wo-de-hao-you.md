@@ -25,7 +25,14 @@
 * 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认1
 * 数据格式:表2
 
-* 表1
+* 表
+
+| uid: | string 用户id |
+| :--- | :--- |
+| suid: | string 好友id |
+| status: | number 状态 |
+
+
 
 
 
