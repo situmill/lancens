@@ -56,10 +56,10 @@
 
 ### 4.查看好友申请后 用户没有同意加好友的列表\(被动\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/add/friend/share
+* API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/share](https://weixin.lancens.com:6443/v1/api/add/friend/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/friend/share" -H  "accept: application/json"`
 
-* 接口说明:显示用户申请添加好友，好友没有同意的列表
+* 接口说明:查看好友申请后  用户没有同意加好友的列表
 
 * 数据格式:表3
 
