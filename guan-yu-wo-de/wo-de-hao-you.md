@@ -131,11 +131,10 @@
 
 ### 9.更新帐号中一个好友昵称信息\(传序列ID,非好友ID\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"realm\": \"string\"}"`
 
-* 接口说明:XXX为序列号,`realm为好友的备注名`
+* 接口说明:XXX为序列号,realm为好友的备注名\(1-32\)
 
-* 
 
 
