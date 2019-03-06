@@ -74,12 +74,10 @@
 
 ### 5.删除用户账号中一个主动临时添加好友申请\(主动\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX
+* API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX" -H  "accept: application/json"`
 
 * 接口说明:XXX为序列号,取消用户添加好友的申请
-
-* 数据格式:表3
 
 ---
 
@@ -87,10 +85,10 @@
 
 ### 6.删除用户账号中一个被动临时添加好友申请\(被动\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/share](https://weixin.lancens.com:6443/v1/api/add/friend/share)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/friend/share" -H  "accept: application/json"`
+* API接口:https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend" -H  "accept: application/json"`
 
-* 接口说明:查看好友申请后  用户没有同意加好友的列表
+* 接口说明:XXX为序列号,取消好友的好友申请,拒接添加此好友
 
 * 数据格式:表3
 
