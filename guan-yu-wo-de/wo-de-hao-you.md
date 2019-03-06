@@ -27,12 +27,10 @@
 
 * 表
 
-| uid: | string 用户id |
+| uid: | int用户id |
 | :--- | :--- |
-| suid: | string 好友id |
+| suid: | int好友id |
 | status: | number 状态 |
-
-
 
 
 
