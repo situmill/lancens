@@ -40,7 +40,10 @@
 
 表2
 
-
+| password: | string\* 重置的新密码 |
+| :--- | :--- |
+| phone: | string\* 重置密码的手机号 |
+| code: | string\* 重置密码手机对应的code验证码 |
 
 ### 3.邮箱修改密码
 
