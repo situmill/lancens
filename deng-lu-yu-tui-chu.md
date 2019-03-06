@@ -30,16 +30,6 @@
 
 表1
 
-| push\_token: | string\* 手机推送令牌 |
-| :--- | :--- |
-| language: | string\* 手机语言 |
-| id: | integer\($int64\) Userid |
-| dev: | integer\($int64\) ios版本值\(0为发布版,1为开发版本\)，默认是0,\(\) |
-| bundleid: | string 包名,默认为公司包名,\(\) |
-| os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
-| os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
-| push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
-
 ---
 
 ---
@@ -54,9 +44,9 @@
 
 * 参数说明:push\_token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是安卓手机型号\(Huawei,Xiaomi等\),os\_token是安卓手机型号对应的推送token,push\_platform安卓系统推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
 
-* 数据格式:表2
+* 数据格式:表1
 
-表2
+表1
 
 | push\_token: | string\* 手机推送令牌 |
 | :--- | :--- |
