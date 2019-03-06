@@ -4,7 +4,5 @@
 
 2.好友系统:扫码、,账号、邮箱、手机号查询好友.添加,删除,备注好友
 
-3.分享好友设备:成为好友后方可分享主设备.分享权限See\_video\(必须选择可看\),Replay\_theater\(历史记录\),Video\_intercom\(\),"Alarm\_push"\]
-
-
+3.分享好友设备:成为好友后方可分享主设备.分享权限See\_video\(必须选择视频观看\),Replay\_theater\(事件记录\),Video\_intercom\(视频对讲\),Alarm\_push\(报警推送\)
 
