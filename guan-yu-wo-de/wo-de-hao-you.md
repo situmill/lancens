@@ -84,7 +84,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json"`
-* 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认0
+
 * 接口说明:返回的好友列表按顺序排序
 * 返回数据:表4
 
