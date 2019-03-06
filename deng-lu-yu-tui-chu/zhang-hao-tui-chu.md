@@ -10,9 +10,9 @@
 
 表1
 
-| username: | string\* |
+| username: | string\*用户名 |
 | :--- | :--- |
-| token: | string\* |
+| token: | string\*登录令牌 |
 
 ### 2.用户账号退出接口说明
 
