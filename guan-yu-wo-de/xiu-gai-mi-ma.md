@@ -69,7 +69,10 @@
 
 表3
 
-
+| password: | string\* 用户密码 |
+| :--- | :--- |
+| code: | string\* 验证码 |
+| email: | string\* 电子邮件信息 |
 
 
 
