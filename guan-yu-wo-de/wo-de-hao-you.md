@@ -63,5 +63,14 @@
 
 * 数据格式:表3
 
+表3
+
+| uid: | string 用户id |
+| :--- | :--- |
+| suid: | string 好友id |
+| friendname: | string 好友用户名 |
+| username: | string 自己用户名 |
+| status: | number 状态 |
+
 
 
