@@ -27,7 +27,7 @@
 * [分享](http://developer.lancens.com:4000/guan-yu-wo-de/wo-de-fen-xiang.html):绑定主设备才可以分享给好友,单个设备分享暂不能超过10人,分享可设置分享时段,分享权限\(视频观看,事件记录,视频对讲,报警推送\),分享后,好友设备列表就可以看到此设备.也可解除分享,解除分享不影响好友关系的存在.
 * [资料](http://developer.lancens.com:4000/guan-yu-wo-de/yong-hu-zi-liao.html):可修改用户名\(不能纯数字\),[修改密码,邮箱](http://developer.lancens.com:4000/guan-yu-wo-de/xiu-gai-mi-ma.html).
 
-#### 6.[退出登录](http://developer.lancens.com:4000/deng-lu-yu-tui-chu/zhang-hao-tui-chu.html),账号退出后,清除推送令牌和用户访问令牌token\(之前的token也随之失效\)
+#### 6.[退出登录](http://developer.lancens.com:4000/deng-lu-yu-tui-chu/zhang-hao-tui-chu.html),账号退出后,[清除推送令牌](http://developer.lancens.com:4000/deng-lu-yu-tui-chu/zhang-hao-tui-chu.html)和用户访问令牌token\(之前的token也随之失效\)
 
 #### 简单流程图：
 
