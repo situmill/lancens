@@ -12,7 +12,7 @@
 
 ### 表1
 
-| apikey: | 有lancens提供32位,默认为lancens |
+| apikey: | 有lancens提供32位,默认为lancens对应的apikey |
 | :--- | :--- |
 | access\_token:\* | string\* 微信token |
 | openid:\* | string\* 微信openid |
