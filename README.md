@@ -7,7 +7,7 @@
 * [用户名注册](http://developer.lancens.com:4000/zhang-hao-zhu-ce/yong-hu-ming-zhu-ce.html)
 * [手机号注册](http://developer.lancens.com:4000/zhang-hao-zhu-ce/shou-ji-hao-zhu-ce.html)
 * [邮箱注册](http://developer.lancens.com:4000/zhang-hao-zhu-ce/you-xiang-zhu-ce.html)
-* 第三方注册登录
+* [第三方注册登录](http://developer.lancens.com:4000/deng-lu-yu-tui-chu/zhang-hao-deng-lu/di-san-fang-deng-lu.html)
 
 #### 2.登录APP成功后,需要获取用户的访问令牌token这个很重要,还需要绑定推送.\(所有的API接口都需要传入访问令牌token在header请求头里面\)
 
