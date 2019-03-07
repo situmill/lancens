@@ -48,9 +48,9 @@
 
 ### 表1
 
-| push\_token: | string\* 手机推送令牌 |
+| push\_token:\* | string\* 手机推送令牌 |
 | :--- | :--- |
-| language: | string\* 手机语言 |
+| language:\* | string\* 手机语言 |
 | id: | integer\($int64\) Userid |
 | dev: | integer\($int64\) ios版本值\(0为发布版,1为开发版本\)，默认是0,\(\) |
 | bundleid: | string 包名,默认为公司包名,\(\) |
