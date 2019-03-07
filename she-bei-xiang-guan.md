@@ -8,7 +8,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token](https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token)
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/all/XXX/token" -H  "accept: application/json" -H "token":"token"`
 
 * 接口相关说明:通过uid 返回观看视频的token 与 asc,self\(自己\),other\(其他人\) starttime endtime per
 
@@ -36,7 +36,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY](https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY)
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json" -H "token":"token"`
 
 * 接口相关说明:XXX参数为设备uid,YYY为好友id,只能转接被分享的好友
 
