@@ -63,7 +63,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/transfer](https://weixin.lancens.com:6443/v1/api/device/app/transfer)
 
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/transfer" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"duid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/transfer" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"duid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
 
 * 接口相关说明:转接根据分享时设置的时间来决定是否转接,根据语言显示中英文 转接为响铃推送,duid转接设备uid,suid好友id,status默认是0,只能转接被分享的好友
 
