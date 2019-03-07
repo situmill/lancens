@@ -65,6 +65,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
 * 参数说明:XXX参数为序列号,int整型,更新name设备名，:push 主设备是否接收推送,ispush是否接收来主设备离线的推送\(默认接收1\)
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表3\(必传参数\)
 
 ### 表3
@@ -83,6 +84,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json"`
 * 参数说明:XXX参数为序列号,int整型
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
 
@@ -93,6 +95,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/XXX/device](https://weixin.lancens.com:6443/v1/api/user/XXX/device)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/XXX/device" -H  "accept: application/json"`
 * 参数说明:XXX参数为设备uid,20位
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 
 
