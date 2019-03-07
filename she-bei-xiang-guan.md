@@ -40,6 +40,8 @@
 
 * 接口相关说明:XXX参数为设备uid,YYY为好友id,只能转接被分享的好友
 
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 * 数据格式:表2\(返回数据\)
@@ -67,6 +69,8 @@
 
 * 备注说明:转接好友在线会推送响铃给好友,不在线的话不会接收到该次响铃转接.转接后可以观看,对讲等
 
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 * 数据格式:表3\(\*必传参数\)
@@ -88,6 +92,8 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/time/zone" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"uid\": \"string\",\"synchro\": \"int\",\"time_zone\": \"string\"}"`
 * 参数相关说明:uid设备的uid,synchro是否自动同步时区1开启0不开启,time\_zone 时区,默认480
 * 接口相关说明:更新时区表和设备表,方便记录设备上次设备的时区.
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表4\(必传参数\)
 
@@ -110,6 +116,8 @@
 
 * 接口相关说明:XXX参数为设备uid,数据返回time\_zone设备时区.
 
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
@@ -125,6 +133,8 @@
 * 接口相关说明:XXX参数为设备uid
 
 * 返回数据说明:online\_type=21为设备上线，online\_type=20为设备下线,actual\_time为触发时间
+
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
