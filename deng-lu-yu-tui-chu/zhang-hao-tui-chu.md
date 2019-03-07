@@ -6,13 +6,13 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/logout" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"token\": \"string\"}"`
 
-* 数据格式:表1
+* 数据格式:表1\(\*为必传参数\)
 
 ### 表1
 
-| username | string \*用户名 |
+| username\* | string \*用户名 |
 | :--- | :--- |
-| token: | string\*登录令牌 |
+| token:\* | string\*登录令牌 |
 
 ### 2.用户账号退出接口说明
 
