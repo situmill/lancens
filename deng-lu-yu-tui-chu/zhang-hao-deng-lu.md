@@ -80,8 +80,8 @@
 
 | id: | integer\($int64\) Userid |
 | :--- | :--- |
-| push\_token: | string\* 手机推送令牌 |
-| language: | string\* 手机语言 |
+| push\_token: | string  手机推送令牌 |
+| language: | string  手机语言 |
 | dev: | integer\($int64\) 版本值\(0,1\)，默认是0,\(可以不传\) |
 | bundleid: | string 包名,默认为公司包名,\(必须传\) |
 | os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
