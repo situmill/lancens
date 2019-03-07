@@ -12,7 +12,7 @@
 
 ### 表1
 
-| apikey: | 第三方Facebook用户登录所使用的信息 |
+| apikey: | 选传参数,由lancens提供,默认为lancens对应32位值 |
 | :--- | :--- |
 | access\_token: | string\* Facebook token |
 
