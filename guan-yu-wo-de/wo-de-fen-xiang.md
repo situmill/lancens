@@ -10,13 +10,13 @@
 
 ### 表1
 
-| duid:\* | string 设备uid |
+| duid:\* | string  \* 设备uid |
 | :--- | :--- |
-| suids:\* | \[\] description:好友id\[52,50,51\] |
-| group\_name:\* | string 组名 |
-| starttime:\* | string 分享开始时间\(分钟0-1440\)默认0 |
-| endtime:\* | string 分享结束时间\(分钟0-1440\)默认1440 |
-| per:\* | \[\] description:权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] |
+| suids:\* | \[\] description: \* 好友id\[52,50,51\] |
+| group\_name:\* | string  \* 组名 |
+| starttime:\* | string  \* 分享开始时间\(分钟0-1440\)默认0 |
+| endtime:\* | string  \* 分享结束时间\(分钟0-1440\)默认1440 |
+| per:\* | \[\] description: \* 权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] |
 | status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
 
 ---
@@ -76,15 +76,15 @@
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:传序列号更新对应的分享设备信息（权限,名字等）
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
-* 数据格式:表3\(返回数据\)
+* 数据格式:表3\(必传参数\)
 
 ### 表3
 
-| group\_name:\* | string 组名 |
+| group\_name:\* | string  \* 组名 |
 | :--- | :--- |
-| starttime:\* | string 分享开始时间\(分钟\) |
-| endtime:\* | string 分享结束时间\(分钟\) |
-| per:\* | \[...\] |
+| starttime:\* | string \* 分享开始时间\(分钟\) |
+| endtime:\* | string \* 分享结束时间\(分钟\) |
+| per:\* | \[...\] \*  |
 | status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
 
 ---
