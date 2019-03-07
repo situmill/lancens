@@ -84,10 +84,10 @@
 
 #### 表4
 
-| uid: | string 用户设备uid |
+| uid:\* | string 用户设备uid |
 | :--- | :--- |
-| synchro: | int 是否自动同步 |
-| time\_zone: | string 时区值默认480 |
+| synchro:\* | int 是否自动同步 |
+| time\_zone:\* | string 时区值默认480 |
 
 ---
 
