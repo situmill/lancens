@@ -65,7 +65,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
 * 参数说明:XXX参数为序列号,int整型,更新name设备名，:push 主设备是否接收推送,ispush是否接收来主设备离线的推送\(默认接收1\)
-* 数据格式:表3
+* 数据格式:表3\(必传参数\)
 
 ### 表3
 
