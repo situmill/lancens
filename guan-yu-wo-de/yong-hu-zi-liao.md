@@ -4,7 +4,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json"`
-* 数据格式:表1
+* 数据格式:表1\(返回数据\)
 
 ### 表1
 
