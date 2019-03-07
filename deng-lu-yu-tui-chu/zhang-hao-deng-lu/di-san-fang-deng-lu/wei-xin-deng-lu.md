@@ -12,7 +12,7 @@
 
 ### 表1
 
-| apikey: | 第三方微信用户登录所使用的信息 |
+| apikey: | 有lancens提供32位,默认为lancens |
 | :--- | :--- |
 | access\_token:\* | string\* 微信token |
 | openid:\* | string\* 微信openid |
