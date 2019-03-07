@@ -50,6 +50,8 @@
 
   \*接口说明:XXX为序列号.
 
+        \*发
+
 * ### 清除手机响铃推送令牌
 
   \*API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
