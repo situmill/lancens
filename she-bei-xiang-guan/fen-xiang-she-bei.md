@@ -51,7 +51,7 @@
 
 ---
 
-### 4.APP端分享权限是否接收推送\(uid\)
+### 4.APP端分享设备是否接收推送\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/per/XXX](https://weixin.lancens.com:6443/v1/api/device/share/per/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/per/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"status\": 0}"`
