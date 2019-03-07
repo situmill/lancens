@@ -112,13 +112,13 @@
 
 ### 表4
 
-| group\_name:\* | string 新组名 |
+| group\_name:\* | string \* 新组名 |
 | :--- | :--- |
-| duid:\* | string 设备uid |
-| suids:\* | \[\] description:好友id\[52,50,51\] |
-| starttime:\* | string 分享开始时间\(分钟\) |
-| endtime:\* | string 分享结束时间\(分钟\) |
-| per:\* | \[\] description:权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] |
+| duid:\* | string \* 设备uid |
+| suids:\* | \[\] description: \* 好友id\[52,50,51\] |
+| starttime:\* | string  \* 分享开始时间\(分钟\) |
+| endtime:\* | string  \* 分享结束时间\(分钟\) |
+| per:\* | \[\] description: \* 权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] |
 | status: | number 是否接收主设备分享的推送\(0或1,默认值为1 接收分享推送\) |
 
 ---
