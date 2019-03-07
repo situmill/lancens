@@ -6,19 +6,18 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"password\": \"string\",  \"realm\": \"string\",  \"email\": \"string\",  \"phone\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
-* 数据格式:表1
+* 数据格式:表1\(\*为必须参数\)
 
 ### 表1
 
-| description: | 新创建用户账号所使用信息 |
+| username:\* | string\* 登录所使用账号,由大小写字母及特殊字符"\_"组成,非纯数字,最大长度32个字节,最小长度6个字节 |
 | :--- | :--- |
-| username: | string\* 登录所使用账号,由大小写字母及特殊字符"\_"组成,非纯数字,最大长度32个字节,最小长度6个字节 |
-| password: | string\* 登录所使用账号对应正确的密码,由大小写字母及特殊字符"\_!@\#$%^&\*\(\)+-="组成,最大长度16个字节,最小长度8个字节 |
-| realm: | string\* 最大长度32个字节,最小长度2个字节 |
-| email: | string\* 邮件地址,最大长度40个字节 |
-| phone: | string\* 电话号码,最大长度20个字节 |
-| apikey: | string 由服务商提供,由小写字母组成,长度为32个字节 |
-| code: | string\* 从手机获取到的验码,由6个数字组成 |
+| password:\* | string\* 登录所使用账号对应正确的密码,由大小写字母及特殊字符"\_!@\#$%^&\*\(\)+-="组成,最大长度16个字节,最小长度8个字节 |
+| realm:\* | string\* 最大长度32个字节,最小长度2个字节 |
+| email:\* | string\* 邮件地址,最大长度40个字节 |
+| phone:\* | string\* 电话号码,最大长度20个字节 |
+| apikey:\* | string 由服务商提供,由小写字母组成,长度为32个字节 |
+| code:\* | string\* 从手机获取到的验码,由6个数字组成 |
 
 ---
 
