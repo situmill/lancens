@@ -24,7 +24,7 @@
 
 * 接口相关说明,账号名默认 em\_XXXX\(20位\),密码\(8-16\),apikey为lancens提供默认为lancens相关,code为邮箱收到的6位数验证码.
 
-* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(send error: 发送邮件错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(being used :邮箱已被注册\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(not applying: 验证码不匹配邮箱\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(being used :邮箱已被注册\),\(paramer error : 代码中捕获到错误\)
 
 * 数据格式:表1\(\*必须参数\)
 
