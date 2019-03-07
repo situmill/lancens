@@ -8,6 +8,8 @@
 
 * 接口相关说明:密码长度\(8-16\).
 
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
 * 数据格式:表1\(\*必传参数\)
 
 ### 表1
@@ -40,14 +42,16 @@
 
 * 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
 
-* 数据格式:表2
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表2\(必传参数\)
 
 ### 表2
 
-| password: | string\* 重置的新密码 |
+| password:\* | string\* 重置的新密码 |
 | :--- | :--- |
-| phone: | string\* 重置密码的手机号 |
-| code: | string\* 重置密码手机对应的code验证码 |
+| phone:\* | string\* 重置密码的手机号 |
+| code:\* | string\* 重置密码手机对应的code验证码 |
 
 ---
 
@@ -73,14 +77,16 @@
 
 * 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
 
-* 数据格式:表3
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表3\(必传参数\)
 
 ### 表3
 
-| password: | string\* 用户密码 |
+| password:\* | string\* 用户密码 |
 | :--- | :--- |
-| code: | string\* 验证码 |
-| email: | string\* 电子邮件信息 |
+| code:\* | string\* 验证码 |
+| email:\* | string\* 电子邮件信息 |
 
 
 
