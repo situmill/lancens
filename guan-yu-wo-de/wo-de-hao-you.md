@@ -49,7 +49,9 @@
 
 * 接口说明:显示用户申请添加好友，好友没有同意的列表
 
-* 数据格式:表3
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表3\(返回数据\)
 
 ---
 
@@ -62,7 +64,9 @@
 
 * 接口说明:查看好友申请后  用户没有同意加好友的列表
 
-* 数据格式:表3
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表3\(返回数据\)
 
 ### 表3
 
