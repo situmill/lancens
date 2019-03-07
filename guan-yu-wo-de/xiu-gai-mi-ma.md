@@ -8,13 +8,13 @@
 
 * 接口相关说明:密码长度\(8-16\).
 
-* 数据格式:表1
+* 数据格式:表1\(\*必传参数\)
 
 ### 表1
 
-| password: | string\* 用户密码 |
+| password:\* | string\* 用户密码 |
 | :--- | :--- |
-| oldpassword: | string 用户旧密码 |
+| oldpassword:\* | string 用户旧密码 |
 
 ---
 
