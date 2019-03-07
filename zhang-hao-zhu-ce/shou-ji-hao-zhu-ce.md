@@ -24,17 +24,17 @@
 
 * 接口相关说明,账号名默认 mp\_XXXX\(20位\),密码\(8-16\),apikey由lancens提供参数默认为lancens相关,code为手机号收到的6位数验证码.
 
-* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
-* 数据格式:表1
+* 数据格式:表1\(\*为必传参数\)
 
 ### 表1
 
-| password: | string\* 登录所使用账号对应正确的密码,由大小写字母及特殊字符"\_!@\#$%^&\*\(\)+-="组成,最大长度16个字节,最小长度8个字节 |
+| password:**\*** | string\* 登录所使用账号对应正确的密码,由大小写字母及特殊字符"\_!@\#$%^&\*\(\)+-="组成,最大长度16个字节,最小长度8个字节 |
 | :--- | :--- |
-| phone: | string\* 手机号码最大长度20个字节,最小长度6个字节 |
-| apikey: | string\* 由服务商提供,由小写字母组成,长度为32个字节 |
-| code: | string\* 从手机获取到的验证码,由6位数字组成 |
+| phone:**\*** | string\* 手机号码最大长度20个字节,最小长度6个字节 |
+| apikey:**\*** | string\* 由服务商提供,由小写字母组成,长度为32个字节 |
+| code:**\*** | string\* 从手机获取到的验证码,由6位数字组成 |
 
 
 
