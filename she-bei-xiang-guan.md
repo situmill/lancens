@@ -12,7 +12,7 @@
 
 * 接口相关说明:通过uid 返回观看视频的token 与 asc,self\(自己\),other\(其他人\) starttime endtime per
 
-* 数据格式:表1
+* 数据格式:表1\(返回数据\)
 
 ### 表1
 
