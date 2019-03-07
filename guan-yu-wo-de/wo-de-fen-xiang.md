@@ -5,6 +5,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"duid\": \"string\",  \"suids\": [    null  ],  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:单个设备uid 不能超过十个分享.选择需要分享的好友id,拼接数组格式进行分享.\([我的好友8获取全部好友ID](http://developer.lancens.com:4000/guan-yu-wo-de/wo-de-hao-you.html)\)
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(No device:没有设备\),\(Sharing upper limit:分享上限10个\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表1\(\*必传参数\)
 
@@ -28,6 +30,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX](https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX" -H  "accept: application/json" -H "token":"token"`
 * 接口相关说明:suid 好友id friendname好友名 realm 备注名 group\_name组名,starttime endtime per权限 status 是否接收推送或历史记录  device 设备类型 ,XXX传uid
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表2\(返回数据\)
 
@@ -40,6 +44,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX](https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX" -H  "accept: application/json" -H "token":"token"`
 * 接口相关说明:suid 好友id friendname好友名 realm 备注名 group\_name组名,starttime endtime per权限 status 是否接收推送或历史记录  device 设备类型 ,XXX传组名group
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 返回数据:表2\(返回数据\)
 
@@ -64,6 +70,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/group/share](https://weixin.lancens.com:6443/v1/api/device/app/group/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/group/share" -H  "accept: application/json"`
 * 接口相关说明:获取用户分享的全部组名
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
@@ -75,6 +83,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:传序列号更新对应的分享设备信息（权限,名字等）
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表3\(必传参数\)
 
@@ -96,6 +106,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app/XXX](https://weixin.lancens.com:6443/v1/api/device/share/app/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\"}"`
 * 接口相关说明:根据XXX旧组名 更新新组名
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
@@ -107,6 +119,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group/XXX](https://weixin.lancens.com:6443/v1/api/device/share/group/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/group/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\",  \"duid\": \"string\",  \"suids\": [    null  ],  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
 * 接口相关说明:根据XXX组名 ,重新分享组,分享不超过10个人,需要重新选择分享的好友id,拼接数组格式进行分享.\([我的好友11获取除屏蔽的好友ID](http://developer.lancens.com:4000/guan-yu-wo-de/wo-de-hao-you.html)\)
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表4\(必传参数\)
 
@@ -130,6 +144,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H  "accept: application/json" -H "token":"token"`
 * 接口相关说明:根据XXX组名删除用户分享给好友的设备组.删除后好友被分享的设备也删除,不会显示该分享设备
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
@@ -141,6 +157,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX" -H  "accept: application/json" -H "token":"token"`
 * 接口相关说明:根据XXX序列号删除用户分享给好友的设备组,删除后好友被分享的设备也删除,不会显示该分享设备
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 ---
@@ -152,6 +170,8 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share](https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share" -H  "accept: application/json" -H "token":"token"`
 * 接口相关说明:根据XXX设备uid删除用户分享给好友的设备组.删除后好友被分享的设备也删除,不会显示该分享设备
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 
