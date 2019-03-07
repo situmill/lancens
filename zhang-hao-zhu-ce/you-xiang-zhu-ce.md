@@ -8,7 +8,7 @@
 
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/email/register?email=XXX" -H  "accept: application/json"`
 
-* 接口相关说明：正确邮箱格式，appname\(app名称默认空\)，language邮件的语言格式默认英文。
+* 接口相关说明：正确邮箱格式，appname\(app名称默认空\)，language邮件的语言格式默认英文。发送邮件6位数验证码
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(send error: 发送邮件错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(being used :邮箱已被注册\),\(paramer error : 代码中捕获到错误\)
 
@@ -25,6 +25,8 @@
 * 接口相关说明,账号名默认 em\_XXXX\(20位\),密码\(8-16\),apikey为lancens提供默认为lancens相关,code为邮箱收到的6位数验证码.
 
 * 数据格式:表1
+
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(send error: 发送邮件错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(being used :邮箱已被注册\),\(paramer error : 代码中捕获到错误\)
 
 ### 表1
 
