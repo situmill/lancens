@@ -30,7 +30,7 @@
 ### 2.获取用户所有设备:
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device](https://weixin.lancens.com:6443/v1/api/user/device)
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device" -H  "accept: application/json" -H "token":"token"`
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
@@ -44,7 +44,7 @@
 ### 3.获取用户单个设备\(序列号\):
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
-* 接口请求:curl -X GET "[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)" -H  "accept: application/json"
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H "accept: application/json" -H "token":"token"`
 * 参数说明:XXX参数为序列号,int整型.
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
@@ -72,7 +72,7 @@
 ### 4.更新用户一台设备\(序列号\):
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"name\": \"string\",  \"push\": 0,  \"ispush\": 0}"`
 * 参数说明:XXX参数为序列号,int整型,更新name设备名，:push 主设备是否接收推送,ispush是否接收来主设备离线的推送\(默认接收1\)
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
@@ -94,7 +94,7 @@
 ### 5.删除用户一台设备\(序列号\):
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
-* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json"`
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H "token":"token"`
 * 参数说明:XXX参数为序列号,int整型
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
@@ -107,7 +107,7 @@
 ### 6.删除用户一台设备\(UID\):
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/XXX/device](https://weixin.lancens.com:6443/v1/api/user/XXX/device)
-* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/XXX/device" -H  "accept: application/json"`
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/XXX/device" -H  "accept: application/json" -H "token":"token"`
 * 参数说明:XXX参数为设备uid,20位
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
