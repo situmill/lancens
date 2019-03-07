@@ -12,7 +12,7 @@
 
 ### 表1
 
-| description: | 第三方Facebook用户登录所使用的信息 |
+| apikey: | 第三方Facebook用户登录所使用的信息 |
 | :--- | :--- |
 | access\_token: | string\* Facebook token |
 
