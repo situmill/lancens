@@ -4,7 +4,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/share" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"duid\": \"string\",  \"suids\": [    null  ],  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
-* 接口相关说明:单个设备uid 不能超过十个分享.选择需要分享的好友id,进行分享.
+* 接口相关说明:单个设备uid 不能超过十个分享.选择需要分享的好友id,进行分享.\([我的好友API获取好友ID](http://developer.lancens.com:4000/guan-yu-wo-de/wo-de-hao-you.html)\)
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(No device:没有设备\),\(Sharing upper limit:分享上限10个\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 * 数据格式:表1\(\*必传参数\)
 
