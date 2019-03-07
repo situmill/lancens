@@ -1,12 +1,4 @@
 {
-	"plugins": ["toggle-chapters"],
-	"styles": {
-		"website": "styles/website.css"
-	},
-	"links": {
-		"sidebar": {
-			">>开发文档<<": "http://developer.lancens.com"
-		}
-	}
+	"plugins": ["toggle-chapters"]
 }
 
