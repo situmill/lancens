@@ -22,9 +22,8 @@
 
 ### 表1
 
-| description: | 设备事件记录 |
-| :--- | :--- |
 | img: | string 经过base64加密，使用需要base64解密 |
+| :--- | :--- |
 | width: | number 图片的宽度\(默认为0\) |
 | height: | number 图片的高度\(默认为0\) |
 | endtime: | number 视频录像结束的时间\(时间戳 默认无为0\) |
