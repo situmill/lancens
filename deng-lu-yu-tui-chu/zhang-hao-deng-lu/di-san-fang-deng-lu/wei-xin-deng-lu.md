@@ -8,14 +8,14 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/weixin/app/login" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"access_token\": \"string\",  \"openid\": \"string\"}"`
 
-* 数据格式:表1
+* 数据格式:表1\(必传参数\)
 
 ### 表1
 
-| description: | 第三方微信用户登录所使用的信息 |
+| apikey: | 第三方微信用户登录所使用的信息 |
 | :--- | :--- |
-| access\_token: | string\* 微信token |
-| openid: | string\* 微信openid |
+| access\_token:\* | string\* 微信token |
+| openid:\* | string\* 微信openid |
 
 ---
 
