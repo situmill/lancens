@@ -4,7 +4,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/password](https://weixin.lancens.com:6443/v1/api/user/password)
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"oldpassword\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/password" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"password\": \"string\",  \"oldpassword\": \"string\"}"`
 
 * 接口相关说明:密码长度\(8-16\).
 
@@ -30,7 +30,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/retrieve](https://weixin.lancens.com:6443/v1/api/phone/retrieve)
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"phone\": \"string\"}"`
 
 * 接口相关说明:手机验证码有效期5分钟,手机号目前支持国内.
 
@@ -38,7 +38,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/retrieve](https://weixin.lancens.com:6443/v1/api/phone/retrieve)
 
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"code\": \"string\"}"`
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"code\": \"string\"}"`
 
 * 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
 
@@ -65,7 +65,7 @@
 
 * 请求上面接口后,服务端会调用API接口:[https://weixin.lancens.com:6443/v1/api/mail2](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email) \(服务端自动调用\).
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"email\": \"string\"}"`
 
 * 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.
 
@@ -73,7 +73,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/email/reset/password](https://weixin.lancens.com:6443/v1/api/user/email/reset/password)
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
 
 * 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
 
