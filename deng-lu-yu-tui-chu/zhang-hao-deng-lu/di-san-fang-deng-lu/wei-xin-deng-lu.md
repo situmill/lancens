@@ -44,7 +44,7 @@
     }
 ```
 
-* 相关错误代码解析:相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(no data error:服务器数据异常\)\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(no data error:服务器数据异常\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 
 
