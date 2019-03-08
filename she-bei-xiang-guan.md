@@ -129,7 +129,7 @@
 
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/online?uid=XXX" -H  "accept: application/json"`
 
-* 接口相关说明:XXX参数为设备uid
+* 接口相关说明:XXX参数为设备uid,只返回最近一条记录的状态.
 
 * 返回数据说明:online\_type=21为设备上线，online\_type=20为设备下线,actual\_time为触发时间
 
