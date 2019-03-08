@@ -24,7 +24,7 @@
 
 * 重要参数:app端只需跟Facebook授权后,调用上面API接口传相应的参数\(access\_token\)即可,服务端会自动处理登录关联.
 
-* Facebook授权接口:[http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access\_token=XXX](http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access_token=XXX)
+* 服务端会自动调用Facebook查询接口:[http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access\_token=XXX](http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access_token=XXX)
 
 * 调用此接口，查询成功后会返回字段id ,通过查询Facebook绑定表,判断是否绑定用户.
 
