@@ -36,7 +36,7 @@
 | height: | number 图片的高度\(默认为0\) |
 | endtime: | number 视频录像结束的时间\(时间戳 默认无为0\) |
 | time: | string 事件发生时间 |
-| event\_guid: | string 事件id |
+| event\_guid: | string 事件guid |
 | starttime: | number 视频录像开始的时间\(时间戳 默认无为0\) |
 | uid: | string 设备uid |
 | video\_status: | number 是否有视频录像\(1为有，默认0 为无\) |
