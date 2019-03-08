@@ -22,7 +22,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/email/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"email\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
-* 接口相关说明:密码\(8-16\),apikey为lancens提供默认为lancens相关,code为邮箱收到的6位数验证码.邮箱注册成功账号名默认 em\_XXXX\(20位\)
+* 接口相关说明:密码\(8-16\),apikey为lancens提供默认为lancens相关,code为邮箱收到的6位数验证码.邮箱注册成功后账号名默认 em\_XXXX\(20位\)
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(not applying: 验证码不匹配邮箱\),\(10001,10021,10031, 10041:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
