@@ -1,11 +1,11 @@
-## 设备会触发门铃事件,PR活动检测事件,门锁事件
+## 设备触发门铃事件,PR活动检测事件,门锁事件,手机APP将收到推送并可以查看对应的事件的信息.
 
 ### 1.获取当前用户所有设备的历史事件信息\(传多个参数\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/deviceses/event\_record?page=XXX&page\_number=YYY](https://weixin.lancens.com:6443/v1/api/user/deviceses/event_record?page=XXX&page_number=YYY)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/deviceses/event_record?page=XXX&page_number=YYY" -H  "accept: application/json" -H "token":"token"`
-* 接口说明:XXX为页数,YYY为页显示的条数 ,比如\(0,50\) 按50条一页显示.
-* 参数说明:img保存的是base64格式,需要解码后才能显示正确图片地址
+* 接口说明:XXX为页数,YYY为页显示的条数 ,比如\(0,20\) 按20条一页显示.
+* 参数说明:img保存的是base64格式,需要解码后才能显示正确图片地址.
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
@@ -20,7 +20,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/event\_record/ZZZ/devicees?page=XXX&page\_number=YYY](https://weixin.lancens.com:6443/v1/api/user/event_record/ZZZ/devicees?page=XXX&page_number=YYY)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/event_record/ZZZ/devicees?page=XXX&page_number=YYY" -H  "accept: application/json" -H "token":"token"`
-* 接口说明:XXX为页数,YYY为页显示的条数,ZZZ为设备uid ,比如\(0,50\) 按50条一页显示.
+* 接口说明:XXX为页数,YYY为页显示的条数,ZZZ为设备uid ,比如\(0,20\) 按20条一页显示.
 * 参数说明:img保存的是base64格式,需要解码后才能显示正确图片地址
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
