@@ -27,11 +27,13 @@
 
 * 服务器自动调用微信查询接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
-* 调用此接口，查询成功后会返回字段unionid ,openid ,通过查询微信绑定表,判断是否绑定用户.
+* 调用此接口，查询成功后会返回字段unionid ,openid ,通过unionid查询微信绑定表,判断是否绑定用户.
 
-* 若微信表中已绑定用户则直接登录绑定的账号.
+* 若微信表中已绑定用户则直接登录绑定的账号.返沪对应信息.
 
 * 若未绑定用户则新建一个用户,默认用户名wx\_XXX\(20\),密码随机10位,apikey默认为lancens对应的32位值,服务器先调用API:[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号,再调用API接口: [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录,最后再调API:[https://weixin.lancens.com/v1/api/user/weixin/app](https://weixin.lancens.com/v1/api/user/weixin/app) 成功后新增记录绑定到微信表中,下次无需再建账号.
+
+* 成功返回201,此处返回的_**token**_值为用户令牌,**所有接口**都要传入才能获取用户信息,time\(token令牌有效期默认一个月时间戳\).然后APP需要[绑定手机推送令牌](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html)
 
 * 登录成功后返回数据格式:
 
