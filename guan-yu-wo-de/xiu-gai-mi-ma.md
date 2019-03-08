@@ -73,7 +73,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/email/reset/password](https://weixin.lancens.com:6443/v1/api/user/email/reset/password)
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json"  -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
 
 * 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
 
