@@ -23,11 +23,11 @@
 
 ### 2.第三方微信登录接口说明
 
-* 重要参数:access\_token\(&lt;60\),openid\(28\).
+* 重要参数:app端只需跟微信方授权后,调用上面API接口传相应的参数\(access\_token,openid\)即可,服务端会自动处理登录关联.
 
-* 微信授权接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
+* 服务器自动调用微信查询接口:[https://api.weixin.qq.com/sns/userinfo?access\_token=XXX&openid=XXX](https://api.weixin.qq.com/sns/userinfo?access_token=XXX&openid=XXX)
 
-* 调用此接口，授权成功后会返回字段unionid ,openid ,通过查询微信绑定表,判断是否绑定用户.
+* 调用此接口，查询成功后会返回字段unionid ,openid ,通过查询微信绑定表,判断是否绑定用户.
 
 * 若微信表中已绑定用户则直接登录绑定的账号.
 
