@@ -26,7 +26,7 @@
 
 * Facebook授权接口:[http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access\_token=XXX](http://www.plug2v.com:8088/v1/api/user/facebook/app/login?access_token=XXX)
 
-* 调用此接口，授权成功后会返回字段id ,通过查询Facebook绑定表,判断是否绑定用户.
+* 调用此接口，查询成功后会返回字段id ,通过查询Facebook绑定表,判断是否绑定用户.
 
 * 若Facebook表中已绑定用户则直接登录绑定的账号.
 
