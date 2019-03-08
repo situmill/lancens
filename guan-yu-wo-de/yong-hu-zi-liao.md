@@ -66,7 +66,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/emailcode/email" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"email\": \"string\"}"`
 
-* 参数说明:appnameAPP名称用于显示邮件出处\(默认空\),language邮件的语言\(默认en\),
+* 参数说明:appname:APP名称用于显示邮件出处\(默认空\),language:邮件的语言\(默认en\),
 
 * 接口说明:请求此接口后会给用户邮箱发送一封邮件,获取到正确的验证码才可以修改邮箱
 
