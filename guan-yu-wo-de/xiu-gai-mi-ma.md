@@ -65,7 +65,7 @@
 
 * 请求上面接口后,服务端会调用API接口:[https://weixin.lancens.com:6443/v1/api/mail2](https://weixin.lancens.com:6443/v1/api/user/passwordcode/email) \(服务端自动调用\).
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token"  -d "{  \"email\": \"string\"}"`
+* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
 * 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.
 
