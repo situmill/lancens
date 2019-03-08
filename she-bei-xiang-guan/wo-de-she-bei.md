@@ -95,7 +95,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/XXX](https://weixin.lancens.com:6443/v1/api/user/device/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/device/XXX" -H  "accept: application/json" -H "token":"token"`
-* 参数说明:XXX参数为序列号,int整型
+* 参数说明:XXX参数为序列号,int整型,删除设备后,分享好友的设备也会被清除。
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
@@ -108,7 +108,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/XXX/device](https://weixin.lancens.com:6443/v1/api/user/XXX/device)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/XXX/device" -H  "accept: application/json" -H "token":"token"`
-* 参数说明:XXX参数为设备uid,20位
+* 参数说明:XXX参数为设备uid,20位.删除设备后,分享好友的设备也会被清除
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
