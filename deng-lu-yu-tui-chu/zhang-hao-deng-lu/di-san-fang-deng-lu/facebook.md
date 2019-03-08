@@ -28,7 +28,7 @@
 
 * 调用此接口，查询成功后会返回字段id ,通过id查询Facebook绑定表,判断是否绑定用户.
 
-* 若Facebook表中已绑定用户则直接登录绑定的账号.返回信息
+* 若Facebook表中已绑定用户则直接登录绑定的账号.返回对应信息
 
 * 若未绑定用户则新建一个用户,默认用户名fb\_XXX\(20\),密码随机10位,apikey默认为lancens对应的32位值,服务器先调用API:[https://weixin.lancens.com/v1/api/user/wx/app](https://weixin.lancens.com/v1/api/user/wx/app) 生成新的账号,再调用API接口: [https://weixin.lancens.com/v1/api/user/login](https://weixin.lancens.com/v1/api/user/login)  模拟用户登录,最后再新增记录绑定到Facebook表中,下次无需再建账号.
 
