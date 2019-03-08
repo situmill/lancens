@@ -38,7 +38,7 @@
 
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/app/transfer?duid=XXX&suid=YYY" -H  "accept: application/json" -H "token":"token"`
 
-* 接口相关说明:XXX参数为设备uid,YYY为好友id,只能转接被分享的好友
+* 接口相关说明:XXX参数为设备uid,YYY为好友id,只能转接被[分享的好友](http://developer.lancens.com:4000/guan-yu-wo-de/wo-de-fen-xiang.html)
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
