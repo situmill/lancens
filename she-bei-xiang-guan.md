@@ -65,7 +65,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/app/transfer" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"duid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
 
-* 接口相关说明:转接根据分享时设置的时间来决定是否转接,根据语言显示中en 转接为响铃推送,duid转接设备uid,suid好友id,status默认是0,只能转接被分享的好友
+* 接口相关说明:转接根据分享时设置的时间来决定是否转接,根据语言显示en 转接为响铃推送,duid转接设备uid,suid好友id,status默认是0,只能转接被分享的好友
 
 * 备注说明:转接好友在线会推送响铃给好友,不在线的话不会接收到该次响铃转接.转接后可以观看,对讲等
 
