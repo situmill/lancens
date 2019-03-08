@@ -122,7 +122,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
 * 参数说明:此处的uuid为用户ID**非设备uid**.suid为好友id,status默认0
-* 接口说明:申请添加好友到临时好友表中后,才可以调用此接口添加好友到好友列表
+* 接口说明:申请添加好友到临时好友表中后,APP端好友列表有_**好友申请**_才可以调用此接口添加好友到好友列表
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
