@@ -53,7 +53,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H "token":"token"`
 
-* 接口说明:显示用户申请添加好友，好友没有同意的列表
+* 接口说明:显示用户申请添加好友，好友没有同意的列表\(显示未同意的好友列表\)
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
