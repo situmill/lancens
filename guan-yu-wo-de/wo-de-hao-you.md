@@ -133,7 +133,7 @@
 
 ---
 
-### 8.查看用户已添加的好友列表
+### 8.查看用户已添加的好友
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H "token":"token"`
