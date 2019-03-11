@@ -1,5 +1,7 @@
 ## 关于我的分享设备
 
+分享设备需要满足:用户存在主设备和存在好友才可以分享.
+
 ### 1.增加设备分享:
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
