@@ -1,6 +1,6 @@
 ## Facebook登录相关接口
 
-#### 摘要:Facebook登录需要Facebook方授权,授权成功后再新建一个账号与Facebook方绑定账号,实现登录.
+#### 摘要:Facebook登录需要Facebook方授权,授权成功后服务器再新建一个账号与Facebook方绑定账号,实现登录.
 
 ### 1.Facebook登录接口
 
