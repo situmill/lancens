@@ -89,7 +89,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
-* 接口相关说明:传序列号更新对应的分享设备信息\(权限,组名等\),,per权限需按格式\["AAA","BBB","CCC"\] \["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] \(注意字符串需要加双引号引起来,否则会报格式错误问题\)
+* 接口相关说明:传序列号更新对应的分享设备信息\(权限,组名等\),,per权限需按格式\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] \(注意字符串需要加双引号,否则会报格式错误问题\)
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
