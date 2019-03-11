@@ -9,12 +9,12 @@
 * [邮箱注册](http://developer.lancens.com:4000/zhang-hao-zhu-ce/you-xiang-zhu-ce.html)
 * [第三方注册登录](http://developer.lancens.com:4000/deng-lu-yu-tui-chu/zhang-hao-deng-lu/di-san-fang-deng-lu.html)
 
-#### 2.登录APP成功后,需要获取用户的访问令牌token这个很重要,还需要绑定推送.\(所有的API接口都需要传入访问令牌token在header请求头里面\)
+#### 2.登录APP成功后,需要获取用户的访问令牌token这个很重要,还需要绑定推送.\(所有的API接口都需要在header请求头里面传入访问令牌token\)
 
 #### 3.登录验证通过后,进入APP设备页面.显示[自己的设备](http://developer.lancens.com:4000/she-bei-xiang-guan/wo-de-she-bei.html)或好友[分享的设备](http://developer.lancens.com:4000/she-bei-xiang-guan/fen-xiang-she-bei.html),可以对设备进行相关的操作.
 
 * 点击视频播放,进入播放页面有录像.拍照,对讲,开锁,转接等功能\(分享的设备根据权限显示功能\)
-* 点击编辑设备,进入编译页面可以修改设备名,重新配网,设置活动检测,开启关闭下线通知,时区设置,删除设备等操作\(分享的设备只能修改名称和删除分享或不接收推送\)
+* 点击编辑设备,进入编辑页面可以修改设备名,重新配网,设置活动检测,开启关闭下线通知,时区设置,删除设备等操作\(分享的设备只能修改名称和删除分享或不接收推送\)
 
 #### 4.[消息页面](http://developer.lancens.com:4000/xiao-xi-xiang-guan.html):
 
