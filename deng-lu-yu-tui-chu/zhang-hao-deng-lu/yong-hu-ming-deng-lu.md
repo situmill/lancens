@@ -24,7 +24,7 @@
 
 * username为用户名,手机号或邮箱,三者都可以登录.
 
-* 成功返回201,此处返回的_**token**_值为用户令牌,**所有接口**都要获取token传入header中才能获取信息,time\(token令牌有效期默认一个月时间戳\).登录成功后APP需要[绑定手机推送令牌](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html).
+* 成功返回201,此处返回的_**token**_值为用户令牌,**所有接口**都要获取token传入header中才能获取信息,time\(token令牌有效期默认一个月时间戳\).登录成功后APP需要[绑定手机推送令牌](/../deng-lu-yu-tui-chu.html).
 
 * 返回数据格式:
 
