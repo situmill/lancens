@@ -55,8 +55,8 @@
 | language:\* | string\* 手机语言 |
 | dev: | integer\($int64\) ios版本值\(0为发布版,1为开发版本\)，默认是0,\(\) |
 | bundleid: | string 包名,默认为lancens包名 |
-| os: | string 手机系统\(选传默认空，使用手机系统推送，目前支持，小米，华为，FCM\) |
-| os\_token: | string 手机系统推送token\(选传默认空，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
+| os: | string 手机系统\(选传默认空，使用手机系统推送，目前支持，小米，华为，OPPO等\) |
+| os\_token: | string 手机系统推送token\(选传默认空，使用手机系统推送所需要使用的token，目前支持，小米，华为，OPPO等\) |
 | push\_platform: | string 安卓推送平台\(选传默认空，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
 
 
