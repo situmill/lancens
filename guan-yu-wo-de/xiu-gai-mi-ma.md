@@ -69,7 +69,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
-* 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.
+* 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.邮箱必须存在才可以发送验证码
 
 ##### 2.通过邮箱验证码，重置用户密码
 
@@ -77,7 +77,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/email/reset/password" -H  "accept: application/json" -H  "content-type: application/json"  -d "{  \"password\": \"string\",  \"code\": \"string\",  \"email\": \"string\"}"`
 
-* 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.
+* 接口相关说明:密码\(8-16\),code为手机号收到的6位数验证码.邮箱与code必须对应才可以修改成功
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
