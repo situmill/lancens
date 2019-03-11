@@ -1,6 +1,6 @@
 # 关于我的账号包括用户基本信息,好友信息,分享设备信息等.
 
-#### 注:所有的API接口都需要传入访问令牌token在header请求头里面.
+### 注:所有的API接口都需要在header请求头里面传入访问令牌token.
 
 #### 1.[用户基本信息](http://developer.lancens.com:4000/guan-yu-wo-de/yong-hu-zi-liao.html):获取账号的基本资料,修改密码、用户名、昵称、邮箱等
 
