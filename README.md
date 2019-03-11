@@ -18,7 +18,7 @@
 
 #### 4.[消息页面](/../xiao-xi-xiang-guan.html):
 
-* [消息选项](http://developer.lancens.com:4000/xiao-xi-xiang-guan/li-shi-ji-lu.html):主要是显示设备触发的事件:门铃呼叫,活动报警,电量低报警,门锁事件.
+* [历史记录](/../xiao-xi-xiang-guan/li-shi-ji-lu.html):主要是显示设备触发的事件:门铃呼叫,活动报警,电量低报警,门锁事件.
 * 本地选项:主要是保存视频的拍照,录像\(可本地删除\)
 
 #### 5.[我的页面](/../guan-yu-wo-de.html):
