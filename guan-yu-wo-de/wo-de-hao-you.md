@@ -87,7 +87,7 @@
 | username: | string 自己用户名 |
 | status: | number 状态 |
 
-### 5.删除用户账号中一个主动临时添加好友申请\(主动\)
+### 5.删除用户账号中一个主动临时添加好友申请\(主动取消添加好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX" -H  "accept: application/json" -H "token":"token"`
@@ -102,7 +102,7 @@
 
 ---
 
-### 6.删除用户账号中一个被动临时添加好友申请\(被动\)
+### 6.删除用户账号中一个被动临时添加好友申请\(拒接被添加好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend](https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend" -H  "accept: application/json" -H "token":"token"`
