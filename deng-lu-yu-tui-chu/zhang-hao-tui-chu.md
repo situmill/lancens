@@ -1,5 +1,7 @@
 ## 用户账号退出相关接口
 
+### 摘要:退出账号需要清除用户访问令牌token,清除推送令牌.
+
 ### 1.用户账号退出接口
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/logout](https://weixin.lancens.com:6443/v1/api/user/logout)
