@@ -92,7 +92,7 @@
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX" -H  "accept: application/json" -H "token":"token"`
 
-* 接口说明:XXX为序列号,用户取_**消添加好友**_的申请.
+* 接口说明:XXX为序列号,用户主动取消_**取消添加好友**_.
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
