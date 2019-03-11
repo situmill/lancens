@@ -8,7 +8,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/logout" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"username\": \"string\",  \"token\": \"string\"}"`
 
-* 重要参数:用户名username\(6-32\).token用户访问令牌,此接口的参数传body里面.
+* 重要参数:用户名username\(6-32\).token用户访问令牌,此接口的参数传body请求体里面.
 
 * 调用此接口,会删除用户的响铃和消息推送令牌并清除redis中的用户登录令牌token.
 
