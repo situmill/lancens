@@ -34,7 +34,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/retrieve" -H  "accept: application/json" -H  "content-type: application/json"  -d "{  \"phone\": \"string\"}"`
 
-* 接口相关说明:手机验证码有效期5分钟,手机号目前支持国内.
+* 接口相关说明:手机验证码有效期5分钟,手机号目前支持国内.手机号必须存在才可以发送验证码.
 
 ##### 2.通过手机验证码重置用户密码
 
