@@ -2,7 +2,7 @@
 
 ### 手机号注册账号需要先调用发送手机验证码接口,获取到6位数验证码后,才能调用注册.
 
-### 1.发送手机注册验证码
+### 1.发送手机注册验证码 
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
 
