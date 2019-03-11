@@ -22,9 +22,9 @@
 
 * 重要参数:username\(6-32\),password\(8-16\)
 
-* username可以为用户名,手机号或邮箱,三者都可以登录.
+* username为用户名,手机号或邮箱,三者都可以登录.
 
-* 成功返回201,此处返回的_**token**_值为用户令牌,**所有接口**都要传入才能获取用户信息,time\(token令牌有效期默认一个月时间戳\).然后APP需要[绑定手机推送令牌](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html).
+* 成功返回201,此处返回的_**token**_值为用户令牌,**所有接口**都要获取token传入header才能获取信息,time\(token令牌有效期默认一个月时间戳\).然后APP需要[绑定手机推送令牌](http://developer.lancens.com:4000/deng-lu-yu-tui-chu.html).
 
 * 返回数据格式:
 
