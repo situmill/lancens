@@ -88,9 +88,9 @@
 | language: | string  手机语言 |
 | dev: | integer\($int64\) 版本值\(0,1\)，默认是0,\(可以不传\) |
 | bundleid: | string 包名,默认为公司包名,\(必须传\) |
-| os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，FCM\) |
-| os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，FCM\) |
-| push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
+| os: | string 手机系统\(选传，使用手机系统推送，目前支持，小米，华为，OPPO等\) |
+| os\_token: | string 手机系统推送token\(选传，使用手机系统推送所需要使用的token，目前支持，小米，华为，OPPO等\) |
+| push\_platform: | string 安卓推送平台\(选传，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，OPPO等\) |
 
 ---
 
