@@ -1,5 +1,10 @@
 ## 更新与删除好友相关
 
+* 更新好友昵称
+* 删除申请添加好友\(取消添加好友\)
+* 删除来自好友的添加申请\(拒绝添加好友\)
+* 删除正常好友
+
 ### 1.更新帐号中一个好友昵称信息\(传序列ID,非好友ID\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX)
