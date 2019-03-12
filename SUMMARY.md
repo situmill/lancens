@@ -28,5 +28,5 @@
 * [资料管理](zi-liao-guan-li.md)
   * [用户资料](zi-liao-guan-li/yong-hu-zi-liao.md)
   * [更新资料](zi-liao-guan-li/geng-xin-zi-liao.md)
-  * 修改密码
+  * [修改密码](zi-liao-guan-li/xiu-gai-mi-ma.md)
 
