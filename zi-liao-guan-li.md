@@ -94,8 +94,6 @@
 | :--- | :--- |
 | email:\* | string\* 新电子邮箱 |
 
-
-
 ### 5.通过旧密码修改密码
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/password](https://weixin.lancens.com:6443/v1/api/user/password)
