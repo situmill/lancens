@@ -1,6 +1,6 @@
 ## 更新与删除好友相关
 
-### 9.更新帐号中一个好友昵称信息\(传序列ID,非好友ID\)
+### 1.更新帐号中一个好友昵称信息\(传序列ID,非好友ID\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"realm\": \"string\"}"`
@@ -15,7 +15,7 @@
 
 ---
 
-### 5.删除用户账号中一个主动临时添加好友申请\(主动取消添加好友\)
+### 2.删除用户账号中一个主动临时添加好友申请\(主动取消添加好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/share/friend/XXX" -H  "accept: application/json" -H "token":"token"`
@@ -30,7 +30,7 @@
 
 ---
 
-### 6.删除用户账号中一个被动临时添加好友申请\(拒绝被添加好友\)
+### 3.删除用户账号中一个被动临时添加好友申请\(拒绝被添加好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend](https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/add/friend/XXX/friend" -H  "accept: application/json" -H "token":"token"`
@@ -45,7 +45,7 @@
 
 ---
 
-### 10.删除用户帐号中一个好友\(序列号\)
+### 4.删除用户帐号中一个好友\(序列号\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX](https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/share/friend/XXX" -H  "accept: application/json" -H "token":"token"`
