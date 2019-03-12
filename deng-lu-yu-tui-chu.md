@@ -16,6 +16,10 @@
 
 ### 登陆后还需要为用户增加手机推送令牌
 
+#### 简单流程图:
+
+![](/assets/denglu01.png)
+
 #### 1.增加用户手机**响铃推送**令牌:
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
