@@ -17,12 +17,10 @@
   * [分享设备](she-bei-xiang-guan/fen-xiang-she-bei.md)
 * [消息相关](xiao-xi-xiang-guan.md)
   * [历史记录](xiao-xi-xiang-guan/li-shi-ji-lu.md)
-* [关于我的](guan-yu-wo-de.md)
-  * [我的好友](guan-yu-wo-de/wo-de-hao-you.md)
-  * [我的分享](guan-yu-wo-de/wo-de-fen-xiang.md)
-  * [用户资料](guan-yu-wo-de/yong-hu-zi-liao.md)
-  * [修改密码](guan-yu-wo-de/xiu-gai-mi-ma.md)
+
 * [好友管理](hao-you-guan-li.md)
 * [分享管理](fen-xiang-guan-li.md)
 * [资料管理](zi-liao-guan-li.md)
+
+
 
