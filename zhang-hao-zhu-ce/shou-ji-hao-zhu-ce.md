@@ -22,7 +22,7 @@
 
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"password\": \"string\",  \"phone\": \"string\",  \"apikey\": \"string\",  \"code\": \"string\"}"`
 
-* 接口相关说明,密码\(8-16\),code为手机号收到的6位数验证码.手机号注册成功后账号名默认 mp\_XXXX\(20位\),apikey由lancens提供参数必须传入正确才可以完成注册.
+* 接口相关说明,密码\(8-16\),code为手机号收到的6位数验证码.手机号注册成功后账号名默认 mp\_XXXX\(20位\),apikey由lancens提供参数必须传入正确才可以完成注册.默认邮箱为空
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
