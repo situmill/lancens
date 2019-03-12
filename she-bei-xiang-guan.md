@@ -50,7 +50,7 @@
 
 | duid: | string 用户设备uid |
 | :--- | :--- |
-| suid: | string suid为好友id,uid为自己ID |
+| suid: | string suid为好友id |
 | transfertoken: | string 转接token |
 | time: | string 转接时间\(分钟\) |
 | status: | number 状态 |
