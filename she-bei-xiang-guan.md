@@ -52,7 +52,7 @@
 | :--- | :--- |
 | suid: | string suid为好友id |
 | transfertoken: | string 转接token\(64\) |
-| time: | string 转接时间\(分钟\) |
+| time: | string 转接时间\(时间戳\) |
 | status: | number 状态 |
 
 ---
