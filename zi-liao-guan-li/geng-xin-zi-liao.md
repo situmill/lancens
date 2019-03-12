@@ -4,7 +4,7 @@
 * 更新用户名
 * 更新用户邮箱
 
-### 2.更新账号相关昵称信息
+### 1.更新账号相关昵称信息
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
 
@@ -20,7 +20,7 @@
 
 ---
 
-### 3.修改用户名\(修改登录用户名\)
+### 2.修改用户名\(修改登录用户名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/username](https://weixin.lancens.com:6443/v1/api/user/username)
 
@@ -36,7 +36,7 @@
 
 ---
 
-### 4.修改用户新邮箱
+### 3.修改用户新邮箱
 
 #### 修改新邮箱需要3步,第一步;更新用户表中的code,第二步发送code到新邮箱\(服务器处理\),邮箱获取code更新绑定新邮箱解绑旧邮箱
 
@@ -66,9 +66,9 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-* 数据格式:表2\(\*必传参数\)
+* 数据格式:表1\(\*必传参数\)
 
-### 表2
+### 表1
 
 | code:\* | string\* 邮箱收到的验证码 |
 | :--- | :--- |
