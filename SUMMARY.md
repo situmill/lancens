@@ -27,6 +27,6 @@
   * [更新与删除](fen-xiang-guan-li/geng-xin-yu-shan-chu.md)
 * [资料管理](zi-liao-guan-li.md)
   * [用户资料](zi-liao-guan-li/yong-hu-zi-liao.md)
-  * 更新资料
+  * [更新资料](zi-liao-guan-li/geng-xin-zi-liao.md)
   * 修改密码
 
