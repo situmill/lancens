@@ -1,5 +1,8 @@
 ## 关于添加分享设备
 
+* 创建一个分享设备给好友
+* 重新分享设备给好友
+
 ### 1.增加设备分享
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share](https://weixin.lancens.com:6443/v1/api/device/app/share)
