@@ -6,7 +6,7 @@
 * 按序列号删除分享设备相关
 * 按设备uid删除分享设备相关
 
-### 5.APP端为用户更新一个分享给好友的设备\(序列号\)
+### 1.APP端为用户更新一个分享给好友的设备\(序列号\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/app/share/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/app/share/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\",  \"starttime\": \"string\",  \"endtime\": \"string\",  \"per\": [    null  ],  \"status\": 0}"`
@@ -15,9 +15,9 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-* 数据格式:表3\(必传参数\)
+* 数据格式:表1\(必传参数\)
 
-### 表3
+### 表1
 
 | group\_name:\* | string  \* 组名 |
 | :--- | :--- |
@@ -30,7 +30,7 @@
 
 ---
 
-### 6.APP端更新一组组名\(组名\)
+### 2.APP端更新一组组名\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/app/XXX](https://weixin.lancens.com:6443/v1/api/device/share/app/XXX)
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/device/share/app/XXX" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"group_name\": \"string\"}"`
@@ -43,7 +43,7 @@
 
 ---
 
-### 8.APP端删除用户分享给好友的设备组\(组名\)
+### 3.APP端删除用户分享给好友的设备组\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/group/share/XXX" -H  "accept: application/json" -H "token":"token"`
@@ -56,7 +56,7 @@
 
 ---
 
-### 9.APP端删除用户分享给好友的设备组\(序列号\)
+### 4.APP端删除用户分享给好友的设备组\(序列号\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX](https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/share/XXX" -H  "accept: application/json" -H "token":"token"`
@@ -69,7 +69,7 @@
 
 ---
 
-### 10.APP端删除用户分享给好友的设备组\(uid\)
+### 5.APP端删除用户分享给好友的设备组\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share](https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share)
 * 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/device/delete/app/XXX/share" -H  "accept: application/json" -H "token":"token"`
