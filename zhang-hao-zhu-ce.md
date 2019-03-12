@@ -13,7 +13,9 @@
 
 ##### 账号注册需要向lancens获取提供的apikey\(区分用户来源\)才能完成注册.默认为lancens相关用户.
 
+#### 简单流程图:
 
+![](/assets/zhuce.png)
 
 
 
