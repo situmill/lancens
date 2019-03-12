@@ -1,5 +1,9 @@
 ## 关于更新用户资料的操作接口：
 
+* 更新用户昵称
+* 更新用户名
+* 更新用户邮箱
+
 ### 2.更新账号相关昵称信息
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user](https://weixin.lancens.com:6443/v1/api/user)
