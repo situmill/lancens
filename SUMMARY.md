@@ -23,7 +23,7 @@
   * [更新与删除](hao-you-guan-li/geng-xin-yu-shan-chu.md)
 * [分享管理](fen-xiang-guan-li.md)
   * [添加分享](fen-xiang-guan-li/tian-jia-fen-xiang.md)
-  * 查看分享
+  * [查看分享](fen-xiang-guan-li/cha-kan-fen-xiang.md)
   * 更新与删除
 * [资料管理](zi-liao-guan-li.md)
 
