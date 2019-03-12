@@ -1,5 +1,9 @@
 ## 关于我的分享设备
 
+* 按设备uid查询列表
+* 按组名查询列表
+* 获取组名列表
+
 ### 1.APP端根据设备uid查询分享设备相关信息\(uid\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX](https://weixin.lancens.com:6443/v1/api/device/share/device?uid=XXX)
