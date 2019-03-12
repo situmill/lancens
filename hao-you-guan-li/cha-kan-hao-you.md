@@ -1,6 +1,6 @@
 ## 我的好友相关
 
-### 3.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
+### 1.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H "token":"token"`
@@ -17,7 +17,7 @@
 
 ---
 
-### 4.查看用户被好友申请添加的好友的列表\(被动\)
+### 2.查看用户被好友申请添加的好友的列表\(被动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/share](https://weixin.lancens.com:6443/v1/api/add/friend/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/friend/share" -H  "accept: application/json" -H "token":"token"`
@@ -39,13 +39,11 @@
 | username: | string 自己用户名 |
 | status: | number 状态 |
 
-
-
 ---
 
 ---
 
-### 8.查看用户已添加的好友
+### 3.查看用户已添加的好友
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H "token":"token"`
@@ -72,7 +70,7 @@
 
 ---
 
-### 11.通过设备UID屏蔽分享过的好友\(显示可以分享的好友列表\)
+### 4.通过设备UID屏蔽分享过的好友\(显示可以分享的好友列表\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/shield/share/friend?uid=XXX](https://weixin.lancens.com:6443/v1/api/shield/share/friend?uid=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/shield/share/friend?uid=XXX" -H  "accept: application/json" -H "token":"token"`
