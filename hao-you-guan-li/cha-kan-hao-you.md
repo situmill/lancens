@@ -1,5 +1,7 @@
 ## 我的好友相关
 
+显示好友列表:
+
 ### 1.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
@@ -75,7 +77,7 @@
 
 #### 表2
 
-| id: | int id |
+| id: | int 序列id |
 | :--- | :--- |
 | uid: | string 用户id |
 | suid: | string 好友id |
