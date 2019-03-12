@@ -2,6 +2,10 @@
 
 ### 添加好友流程:先查询好友,再请求添加好友,对方通过申请才可以添加成功.
 
+简单流程图:
+
+![](/assets/haoyou.png)
+
 ### 1.查找是否存在好友\(查询好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX](https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX)
