@@ -24,5 +24,5 @@
   * [修改密码](guan-yu-wo-de/xiu-gai-mi-ma.md)
 * [好友管理](hao-you-guan-li.md)
 * [分享管理](fen-xiang-guan-li.md)
-* 资料管理
+* [资料管理](zi-liao-guan-li.md)
 
