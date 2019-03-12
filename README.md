@@ -36,7 +36,7 @@
 
 * [资料](#):可修改昵称、用户名\(不能纯数字\),[修改密码,邮箱](#)
 
-#### 6.[退出登录](/../deng-lu-yu-tui-chu/zhang-hao-tui-chu.html),账号退出后,清除推送令牌和用户访问令牌token\(之前的token也随之失效\)
+#### 8.[退出登录](/../deng-lu-yu-tui-chu/zhang-hao-tui-chu.html),账号退出后,清除推送令牌和用户访问令牌token\(之前的token也随之失效\)
 
 #### 简单流程图：
 
