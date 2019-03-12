@@ -1,5 +1,7 @@
 ## 添加好友相关
 
+### 添加好友简单流程:先查询到好友,申请添加好友,等待好友对方同意,同意则添加成功,不同意则添加失败,需要再次查询再申请
+
 ### 1.查找是否存在好友\(查询好友\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX](https://weixin.lancens.com:6443/v1/api/selecte/share/friend?name=XXX)
