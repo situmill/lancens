@@ -44,9 +44,7 @@
 
 ---
 
-
-
-### 7.添加好友到好友表中\(需申请才能添加成功\)
+### 3.添加好友到好友表中\(需申请才能添加成功\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H  "content-type: application/json" -H "token":"token" -d "{  \"uid\": \"string\",  \"suid\": \"string\",  \"status\": 0}"`
