@@ -17,10 +17,10 @@
   * [分享设备](she-bei-xiang-guan/fen-xiang-she-bei.md)
 * [消息相关](xiao-xi-xiang-guan.md)
   * [历史记录](xiao-xi-xiang-guan/li-shi-ji-lu.md)
-
 * [好友管理](hao-you-guan-li.md)
+  * [添加好友](hao-you-guan-li/tian-jia-hao-you.md)
+  * 查看好友
+  * 更新与删除
 * [分享管理](fen-xiang-guan-li.md)
 * [资料管理](zi-liao-guan-li.md)
-
-
 
