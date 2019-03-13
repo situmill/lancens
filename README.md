@@ -30,7 +30,7 @@
 #### 6.分享管理:
 
 * [添加分享](/../fen-xiang-guan-li/tian-jia-fen-xiang.html):绑定主设备才可以分享给好友,单个设备分享暂不能超过10人,分享可设置分享时段,分享权限\(视频观看,事件记录,视频对讲,报警推送\),分享后,好友在设备列表就可以看到此设备.
-* [重新分享](/../fen-xiang-guan-li/tian-jia-fen-xiang.html):重新分享组,可以重新设置设备权限与分享时间段.
+* [查看分享](/../fen-xiang-guan-li/cha-kan-fen-xiang.html):查看分享组,可以查看分享好友的设备权限与分享时间段.
 
 * [更新或删除分享](/../fen-xiang-guan-li/geng-xin-yu-shan-chu.html):删除分享组,对应分享组中的好友也可解除分享,解除分享不影响好友关系的存在.
 
