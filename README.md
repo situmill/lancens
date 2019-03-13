@@ -26,7 +26,7 @@
 
 #### 5.好友管理:
 
-* ##### [添加好友](/../hao-you-guan-li/tian-jia-hao-you.html):通过查找好友,申请添加好友,对方同意后,成为好友才可以分享设备.添加好友目数量前没有上限限制
+* ##### [添加好友](/../hao-you-guan-li/tian-jia-hao-you.html):通过查找好友,申请添加好友,对方同意后,成为好友才可以分享设备.添加好友数量没有上限限制
 * ##### [查看好友](/../hao-you-guan-li/cha-kan-hao-you.html):获取好友的基本信息
 * ##### [更新或删除好友](/../hao-you-guan-li/geng-xin-yu-shan-chu.html):好友删除后,对应彼此分享的设备也会清除.
 
