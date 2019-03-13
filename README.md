@@ -9,7 +9,10 @@
 * [邮箱注册](/../zhang-hao-zhu-ce/you-xiang-zhu-ce.html)
 * [第三方注册登录](/../deng-lu-yu-tui-chu/zhang-hao-deng-lu/di-san-fang-deng-lu.html)
 
-#### 2.登录APP成功后,需要获取用户的访问令牌token这个很重要,还需要绑定推送.\(所有的API接口都需要在header请求头里面传入访问令牌token\)
+#### 2.登录APP成功后
+
+* #### 需要获取用户的访问令牌token这个很重要,
+* #### 还需要绑定推送.\(所有的API接口都需要在header请求头里面传入访问令牌token\)
 
 #### 3.登录验证通过后,进入APP设备页面.显示[自己的设备](/../she-bei-xiang-guan/wo-de-she-bei.html)或好友[分享的设备](/../she-bei-xiang-guan/fen-xiang-she-bei.html),可以对设备进行相关的操作.
 
