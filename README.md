@@ -11,7 +11,7 @@
 
 #### 2.登录APP成功后
 
-* ##### 需要获取用户的访问令牌token这个很重要\(登录成功直接获取保存\),
+* ##### 需要获取用户的访问令牌token这个很重要\(登录成功直接获取保存token\),
 * ##### 还需要[绑定推送](/../deng-lu-yu-tui-chu.html).\(所有的API接口都需要在header请求头里面传入访问令牌token\)
 
 #### 3.登录验证通过后,进入APP设备页面.显示[自己的设备](/../she-bei-xiang-guan/wo-de-she-bei.html)或好友[分享的设备](/../she-bei-xiang-guan/fen-xiang-she-bei.html),可以对设备进行相关的操作.
