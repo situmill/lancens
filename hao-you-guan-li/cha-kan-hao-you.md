@@ -2,11 +2,11 @@
 
 ### 显示好友列表有三种:
 
-* [自己申请添加的好友列表\(需要等待好友同意\)](/../hao-you-guan-li/cha-kan-hao-you.html#chakan1)
-* [来自好友请求添加成为好友的列表\(需要自己同意后成为好友\)](#chakan2)
-* [已添加成功的好友列表](/../hao-you-guan-li/cha-kan-hao-you.html "查看用户已添加的好友")
+* [自己申请添加的好友列表\(需要等待好友同意\)](#主动申请添加好友)
+* [来自好友请求添加成为好友的列表\(需要自己同意后成为好友\)](#被好友申请添加)
+* [已添加成功的好友列表](#查看用户已添加的好友)
 
-### 1.查看用户主动申请添加好友,没有同意的好友列表\(主动\)&lt;div id="chakan1"&gt;&lt;/div&gt;
+### 1.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/share/friend](https://weixin.lancens.com:6443/v1/api/add/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/share/friend" -H  "accept: application/json" -H "token":"token"`
@@ -23,7 +23,7 @@
 
 ---
 
-### 2.查看用户被好友申请添加的好友的列表\(被动\)&lt;div id="chakan2"&gt;&lt;/div&gt;
+### 2.查看用户被好友申请添加的好友的列表\(被动\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/add/friend/share](https://weixin.lancens.com:6443/v1/api/add/friend/share)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/add/friend/share" -H  "accept: application/json" -H "token":"token"`
