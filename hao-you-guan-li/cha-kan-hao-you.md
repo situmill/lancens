@@ -4,7 +4,7 @@
 
 * [自己申请添加的好友列表\(需要等待好友同意\)](#1查看用户主动申请添加好友没有同意的好友列表主动)
 * [来自好友请求添加成为好友的列表\(需要自己同意后成为好友\)](#2查看用户被好友申请添加的好友的列表被动)
-* 用户已添加的好友
+* [用户已添加的好友](#3.查看用户已添加的好友)
 
 ### 1.查看用户主动申请添加好友,没有同意的好友列表\(主动\)
 
@@ -49,7 +49,7 @@
 
 ---
 
-### 3.查看用户已添加的好友
+### 3.查看用户的好友列表
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/friend](https://weixin.lancens.com:6443/v1/api/device/share/friend)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/friend" -H  "accept: application/json" -H "token":"token"`
