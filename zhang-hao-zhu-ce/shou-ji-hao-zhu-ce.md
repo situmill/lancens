@@ -4,9 +4,9 @@
 
 ### 1.发送手机注册验证码
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
+* API接口:https://weixin.lancens.com:6443/v1/api/area/code
 
-* 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/phone/register" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"phone\": \"string\"}"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/area/code" -H  "accept: application/json"`
 
 * 接口相关说明：必传手机号码,收到的手机验证码有效期5分钟，手机号目前支持国内。不能注册已存在得手机号
 
