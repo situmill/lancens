@@ -12,6 +12,12 @@
 
 * 相关错误代码解析:\(10001,10008 :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
+* 数据格式:表1\(返回数据\)
+
+#### 表1
+
+
+
 ### 2.发送手机注册验证码
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
