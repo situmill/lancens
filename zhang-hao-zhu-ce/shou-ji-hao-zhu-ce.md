@@ -6,7 +6,7 @@
 
 * [通过手机号与对应验证码完成注册.](#3手机号注册)
 
-### 1.获取开通的国家区号列表
+### 1.获取开通手机号短信的国家区号列表
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/area/code](https://weixin.lancens.com:6443/v1/api/area/code)
 
