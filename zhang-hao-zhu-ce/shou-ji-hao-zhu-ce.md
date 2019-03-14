@@ -4,13 +4,13 @@
 
 ### 1.发送手机注册验证码
 
-* API接口:https://weixin.lancens.com:6443/v1/api/area/code
+* API接口:[https://weixin.lancens.com:6443/v1/api/area/code](https://weixin.lancens.com:6443/v1/api/area/code)
 
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/area/code" -H  "accept: application/json"`
 
-* 接口相关说明：必传手机号码,收到的手机验证码有效期5分钟，手机号目前支持国内。不能注册已存在得手机号
+* 接口相关说明：APP手机号注册需要加载开通的国家区号才能完成注册.
 
-* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021 :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:\(10001,10008 :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
 ### 2.发送手机注册验证码
 
