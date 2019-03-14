@@ -2,6 +2,8 @@
 
 ### 手机号注册账号需要先调用发送手机验证码接口,获取到6位数验证码后,才能调用注册.
 
+### 这里首先要区分国内短信还是国际短信,需要获取开通的国家的区号
+
 ### 1.发送手机注册验证码
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/phone/register](https://weixin.lancens.com:6443/v1/api/phone/register)
