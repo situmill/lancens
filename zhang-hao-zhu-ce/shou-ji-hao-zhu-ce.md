@@ -19,8 +19,8 @@
 | global\_id: | integer\($int64\) 序列id |
 | :--- | :--- |
 | area\_name: | string 国家中文名 |
-| area\_code: | string 国家对应区号\(不要带+号\) |
-| status: | string 开通状态\(1开启 0未开启\) |
+| area\_code: | int 国家对应区号\(不要带+号\) |
+| status: | int 开通状态\(1开启 0未开启\) |
 | time: | string 更新的时间 |
 | language: | string 语言 |
 | name\_en: | string 国家英文名 |
