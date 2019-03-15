@@ -10,9 +10,9 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/area/code](https://weixin.lancens.com:6443/v1/api/area/code)
 
-* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/area/code" -H  "accept: application/json"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/area/code?language=en" -H  "accept: application/json"`
 
-* 接口相关说明：APP手机号注册需要传入开通的国家区号才能完成注册\(**获取area\_code**\).
+* 接口相关说明：需要传入language获取显示的语言\(默认为en\),根据语言显示 国家名与国家区号\(**获取area\_code**\).
 
 * 相关错误代码解析:\(10001,10008 :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
