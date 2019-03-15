@@ -26,13 +26,13 @@
 
 #### 4.消息页面:
 
-* [历史记录](/../xiao-xi-xiang-guan/li-shi-ji-lu.html):主要是显示设备触发的事件:门铃呼叫,活动报警,电量低报警,门锁事件.
+* [历史记录](/../xiao-xi-xiang-guan/li-shi-ji-lu.html):主要是显示设备触发的事件:门铃呼叫,活动报警,电量低报警,门锁事件.目前限制为保留15天的历史记录且单个设备不超过300张图片。
 
 #### 5.好友管理:
 
-* [添加好友](/../hao-you-guan-li/tian-jia-hao-you.html):通过查找好友,申请添加好友,对方同意后,成为好友才可以分享设备.添加好友数量没有上限限制
+* [添加好友](/../hao-you-guan-li/tian-jia-hao-you.html):通过查找好友,申请添加好友,等待对方同意后,成为好友才可以分享设备
 
-* [查看好友](/../hao-you-guan-li/cha-kan-hao-you.html):获取好友的基本信息
+* [查看好友](/../hao-you-guan-li/cha-kan-hao-you.html):获取好友的基本信息\(用户名,昵称,好友ID\)
 
 * [更新或删除好友](/../hao-you-guan-li/geng-xin-yu-shan-chu.html):好友删除后,对应彼此分享的设备也会清除.
 
