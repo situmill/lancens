@@ -42,7 +42,7 @@
 
 * [查看分享](/../fen-xiang-guan-li/cha-kan-fen-xiang.html):查看分享组,可以查看分享好友的成员与分享设备权限、时间段.
 
-* [更新或删除分享](/../fen-xiang-guan-li/geng-xin-yu-shan-chu.html):更新分享组组名,删除分享组,对应分享组中的好友也可解除分享,解除分享不影响好友关系的存在.
+* [更新或删除分享](/../fen-xiang-guan-li/geng-xin-yu-shan-chu.html):更新分享组组名,删除分享组后,对应分享组中的好友也可解除分享,解除分享不影响好友关系的存在.
 
 #### 7.资料管理:
 
