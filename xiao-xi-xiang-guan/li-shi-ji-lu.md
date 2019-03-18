@@ -43,5 +43,21 @@
 | type: | string 设备事件类型\(0人体感应，1门铃呼叫，2指纹开锁，3密码开锁，4低电压，5门锁\)，其他\[type=100为推送分享转接,type=200为推送添加好友信息,type=20为设备下线通知，type=21为设备上线通知\] |
 | id: | integer\($int64\) 事件序列id |
 
+---
+
+---
+
+### 3.按时间排序显示当前用户,日期与其对应的历史事件总数
+
+* API接口:https://weixin.lancens.com:6443/v1/api/user/device/event/recode
+* 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/recode" -H  "accept: application/json" -H  "token: token"`
+* 接口说明:返回时间time\(2019-03-18\)与总数total\(5\);
+
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表1\(返回数据\)
+
 
 
