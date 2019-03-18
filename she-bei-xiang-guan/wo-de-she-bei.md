@@ -120,7 +120,7 @@
 
 ---
 
-### 7.查询主设备已分享了多少个用户\(传设备UID\):
+### 7.查询主设备已分享了多少个用户\(传设备UID\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/share/total?uid=XXX](https://weixin.lancens.com:6443/v1/api/user/device/share/total?uid=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/share/total?uid=XXX" -H  "accept: application/json" -H  "token: token"`
@@ -131,7 +131,7 @@
 
 * 数据格式:表4\(返回数据\)
 
-#### 表4 
+#### 表4
 
 | uid: | string 设备的uid,固定长度20个字节 |
 | :--- | :--- |
