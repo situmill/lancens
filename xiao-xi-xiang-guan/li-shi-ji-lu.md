@@ -61,12 +61,25 @@
 
 #### 表2:
 
-  
-
-
 | time: | string 事件时间日期\(XXXX-XX-XX\) |
 | :--- | :--- |
 | total: | number 时间日期对应的总数量 |
+
+---
+
+---
+
+### 4.获取当前日期时间下用户所有设备的历史事件信息\(传多个参数\)
+
+* API接口:https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page\_number=ZZZ
+* 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page_number=ZZZ" -H  "accept: application/json" -H  "token: token"`
+* 接口说明:XXX为页数,YYY为页显示的条数 ,比如\(0,20\) 按20条一页显示.
+* 参数说明:img保存的是base64格式,需要解密后才能显示正确图片地址.
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表1\(返回数据\)
 
 
 
