@@ -16,16 +16,20 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-* | undefined XXX | 参数没有传XXX |
-  | :--- | :--- |
-  | XXX length error | XXX长度有误 |
-  | XXX error | 验证XXX失败 |
-  | XXX format error | XXX类型错误 |
-  | 100XX,200XX,300XX | 数据库相关错误问题 |
-  | XXX exist | XXX存在 |
-  | 100XX,200XX,300XX | 数据库错误 |
-  | paramer error | 代码中捕获到错误 |
-* 数据格式:表1\(返回数据\)
+| undefined XXX | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
+
+数据格式:表1\(返回数据\)
 
 #### 表1
 
