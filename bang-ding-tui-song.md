@@ -1,6 +1,4 @@
-```
-登陆后还需要为用户增加手机推送令牌
-```
+## 登陆后还需要为用户增加手机推送令牌
 
 #### 1.增加用户手机**响铃推送**令牌:
 
@@ -89,11 +87,12 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
 
-*  接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"  -H "token":"token"`
+* 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json"  -H "token":"token"`
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
 * 数据格式:表2\(返回数据\)
 
 | undefined XXX |
@@ -112,8 +111,6 @@
 | username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
-
- 
 
 ### 表2
 
@@ -180,6 +177,7 @@
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)undefined XXX
+
 * 数据格式:表4\(返回数据格式\)
 
 ### 表4
@@ -207,9 +205,8 @@
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)undefined XXX
+
 * 数据格式:表5\(\*必传参数\)
-
-
 
 ### 表5
 
@@ -223,15 +220,15 @@
 
 ### 8.删除一条手机**消息**推送令牌\(序列号\)
 
-\*API接口:[https://weixin.lancens.com:6443/v1/api/user/message/token/XXX](https://weixin.lancens.com:6443/v1/api/user/message/token/XXX)
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/message/token/XXX](https://weixin.lancens.com:6443/v1/api/user/message/token/XXX)
 
-\*接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/message/token/XXX" -H  "accept: application/json" -H "token":"token"`
+* 接口请求:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/message/token/XXX" -H  "accept: application/json" -H "token":"token"`
 
-\*接口说明:XXX为序列号
+* 接口说明:XXX为序列号
 
-\*请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
+* 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
-\*相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 
 
