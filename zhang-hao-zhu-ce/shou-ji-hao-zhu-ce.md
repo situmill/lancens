@@ -18,7 +18,6 @@
 
 * | undefined XXX | 参数没有传XXX |
   | :--- | :--- |
-  | undefined XXX | 参数没有传XXX |
   | XXX length error | XXX长度有误 |
   | XXX error | 验证XXX失败 |
   | XXX format error | XXX类型错误 |
@@ -51,19 +50,16 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021 :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
-* | undefined XXX |
-  | :--- |
-
-
-  |  | 参数没有传XXX |
-  | :--- | :--- |
-  | XXX length error | XXX长度有误 |
-  | XXX error | 验证XXX失败 |
-  | XXX format error | XXX类型错误 |
-  | 10001,10021,10081 | 数据库相关错误问题 |
-  | XXX exist | XXX存在 |
-  | no data error | 数据错误 |
-  | paramer error | 代码中捕获到错误 |
+* 
+| undefined XXX | 参数没有传XXX |
+| :--- | :--- |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 10001,10021,10081 | 数据库相关错误问题 |
+| XXX exist | XXX存在 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
 
 ---
 
@@ -79,19 +75,17 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021,10031, :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
-* | undefined XXX |
-  | :--- |
+* 
+| undefind XXX | 参数没有传XXX |
+| :--- | :--- |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 10001,10021,10081 | 数据库相关错误问题 |
+| XXX exist | XXX存在 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
 
-
-  |  | 参数没有传XXX |
-  | :--- | :--- |
-  | XXX length error | XXX长度有误 |
-  | XXX error | 验证XXX失败 |
-  | XXX format error | XXX类型错误 |
-  | 10001,10021,10081 | 数据库相关错误问题 |
-  | XXX exist | XXX存在 |
-  | no data error | 数据错误 |
-  | paramer error | 代码中捕获到错误 |
 * 数据格式:表2\(\*为必传参数\)
 
 ### 表2
