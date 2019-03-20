@@ -197,7 +197,7 @@
 
 * | undefined XXX | 参数没有传XXX |
   | :--- | :--- |
-  |  no token |  header请求头没有传token\) |
+  | no token | header请求头没有传token\) |
   | XXX length error | XXX长度有误 |
   | XXX error | 验证XXX失败 |
   | XXX format error | XXX类型错误 |
