@@ -1,0 +1,47 @@
+### 登陆后还需要为用户增加手机推送令牌
+
+#### 1.增加用户手机**响铃推送**令牌:
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
+
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
+
+* 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
+
+* 参数说明:push\_token是响铃推送的令牌,bundleid是服务器配置的证书包名,os是安卓手机型号\(Huawei,Xiaomi等\),os\_token是安卓手机型号对应的推送token,push\_platform安卓系统推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
+
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表1\(\*必须参数\)
+
+---
+
+---
+
+#### 2.增加用户手机**消息推送**令牌:
+
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/message/token](https://weixin.lancens.com:6443/v1/api/user/message/token)
+
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/message/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os_token\": \"string\",  \"push_platform\": \"string\"}"`
+
+* 相关重要参数:push\_token,bundleid,os,push\_platform,os\_token,dev
+
+* 参数说明:push\_token是消息推送的令牌,bundleid是服务器配置的证书包名,os是安卓手机型号\(Huawei,Xiaomi等\),os\_token是安卓手机型号对应的推送token,push\_platform安卓系统推送的平台\(HUAWEI,XIAOMI等\),dev是ios开发版0/发布版1
+
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+* 数据格式:表1\(\*必须参数\)
+
+### 表1
+
+| push\_token:\* | string\* 手机推送令牌 |
+| :--- | :--- |
+| language:\* | string\* 手机语言 |
+| dev: | integer\($int64\) ios版本值\(0为发布版,1为开发版本\)，默认是0,\(\) |
+| bundleid: | string 包名,默认为lancens包名 |
+| os: | string 手机系统\(选传默认空，使用手机系统推送，目前支持，小米，华为，OPPO等\) |
+| os\_token: | string 手机系统推送token\(选传默认空，使用手机系统推送所需要使用的token，目前支持，小米，华为，OPPO等\) |
+| push\_platform: | string 安卓推送平台\(选传默认空，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
+
+
+
