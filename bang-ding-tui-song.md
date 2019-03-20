@@ -140,6 +140,23 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)undefined XXX
 
+| undefined XXX |
+| :--- |
+
+
+|  | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
+
 * 数据格式:表3\*必传参数\)
 
 ### 表3
@@ -164,6 +181,23 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
+| undefined XXX |
+| :--- |
+
+
+|  | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
+
 ---
 
 ---
@@ -177,6 +211,23 @@
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)undefined XXX
+
+| undefined XXX |
+| :--- |
+
+
+|  | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
 
 * 数据格式:表4\(返回数据格式\)
 
@@ -206,6 +257,23 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)undefined XXX
 
+| undefined XXX |
+| :--- |
+
+
+|  | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
+
 * 数据格式:表5\(\*必传参数\)
 
 ### 表5
@@ -229,6 +297,23 @@
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
+
+| undefined XXX |
+| :--- |
+
+
+|  | 参数没有传XXX |
+| :--- | :--- |
+| no token | header请求头没有传token |
+| XXX length error | XXX长度有误 |
+| XXX error | 验证XXX失败 |
+| XXX format error | XXX类型错误 |
+| 100XX,200XX,300XX | 数据库相关错误问题 |
+| invalid token | 无效的token令牌 |
+| XXX exist | XXX存在 |
+| username or password error | 账号密码不匹配 |
+| no data error | 数据错误 |
+| paramer error | 代码中捕获到错误 |
 
 
 
