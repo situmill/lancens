@@ -14,7 +14,7 @@
 
 * 接口相关说明：需要传入language获取国家名显示的语言\(默认为en\),根据语言显示 国家名与国家区号\(**获取area\_code**\).
 
-* 相关错误代码解析:\(10001,10008 :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
+* 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001, 10051:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
 * | undefined XXX | 参数没有传XXX |
   | :--- | :--- |
@@ -23,7 +23,7 @@
   | XXX format error | XXX类型错误 |
   | 100XX,200XX,300XX | 数据库相关错误问题 |
   | XXX exist | XXX存在 |
-  | no data error | 数据错误 |
+  | 100XX,200XX,300XX | 数据库错误 |
   | paramer error | 代码中捕获到错误 |
 * 数据格式:表1\(返回数据\)
 
