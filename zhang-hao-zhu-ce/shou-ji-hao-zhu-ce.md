@@ -16,6 +16,16 @@
 
 * 相关错误代码解析:\(10001,10008 :数据库相关错误问题\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
 
+* |  undefined XXX | 参数没有传XXX |
+  | :--- | :--- |
+  |  undefined XXX | 参数没有传XXX |
+  | XXX length error | XXX长度有误 |
+  | XXX error | 验证XXX失败 |
+  | XXX format error | XXX类型错误 |
+  | 10001,10081 | 数据库相关错误问题 |
+  | XXX exist | XXX存在 |
+  | no data error | 数据错误 |
+  | paramer error | 代码中捕获到错误 |
 * 数据格式:表1\(返回数据\)
 
 #### 表1
@@ -40,6 +50,33 @@
 * **area\_code**为[开通的国际短息国家区号](#1获取开通手机号短信的国家区号列表)\(默认为国内86\)
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(10001,10021 :数据库相关错误问题\),\(XXX exist: XXX存在\),\(no data error :数据错误\),\(paramer error : 代码中捕获到错误\)
+
+* | XXX length error | XXX长度有误 |
+  | :--- | :--- |
+
+
+  | XXX error | 验证XXX失败 |
+  | :--- | :--- |
+
+
+  | XXX format error | XXX类型错误 |
+  | :--- | :--- |
+
+
+  | 10001,10081 | 数据库相关错误问题 |
+  | :--- | :--- |
+
+
+  | XXX exist | XXX存在 |
+  | :--- | :--- |
+
+
+  | no data error | 数据错误 |
+  | :--- | :--- |
+
+
+  | paramer error | 代码中捕获到错误 |
+  | :--- | :--- |
 
 ---
 
