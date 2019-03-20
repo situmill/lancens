@@ -21,7 +21,7 @@
   | XXX length error | XXX长度有误 |
   | XXX error | 验证XXX失败 |
   | XXX format error | XXX类型错误 |
-  | 10001,10081 | 数据库相关错误问题 |
+  | 100XX,200XX,300XX | 数据库相关错误问题 |
   | XXX exist | XXX存在 |
   | no data error | 数据错误 |
   | paramer error | 代码中捕获到错误 |
