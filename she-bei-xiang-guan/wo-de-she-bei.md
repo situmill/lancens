@@ -96,7 +96,7 @@
 
 | id: | integer\($int64\) 设备id |
 | :--- | :--- |
-|  total | 该设备已分享总数 |
+| total | 该设备已分享总数\(新\) |
 | uid: | string 由大写字母组成,固定长度20个字节 |
 | name: | string 由除英文特殊字符“~\`!@\#$%^&\*\(\)\_+-={}\|\[\]\:";&lt;&gt;?,./‘”组成,最大长度32个字节,最小长度1个字节 |
 | push: | number 是否接收推送信息（1开启 0关闭）（必传） |
@@ -128,7 +128,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -163,7 +162,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -189,7 +187,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -217,7 +214,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -227,7 +223,7 @@
 
 | uid: | string 设备的uid,固定长度20个字节 |
 | :--- | :--- |
-| total: | number 该主设备已分享的人数 |
+| total: | number 该主设备已分享的总数 |
 
 
 
