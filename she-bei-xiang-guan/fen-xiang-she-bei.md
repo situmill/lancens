@@ -9,7 +9,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -18,7 +18,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -35,9 +34,11 @@
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
+* 新增此主设备的用户名与昵称
+
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -46,7 +47,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -65,6 +65,8 @@
 | id: | integer\($int64\) id |
 | per: | string 权限功能\("See\_video","Replay\_theater"，"Video\_intercom"，"Alarm\_push"\) |
 | suid: | string suid为好友id\(分享人的id\) |
+|  username |  主设备用户名\(分享设备才返回\) |
+| realm |  主设备用户昵称\(分享设备才返回\) |
 
 ---
 
@@ -79,7 +81,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -105,7 +107,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(Not sharing uid: 该设备没有分享\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -131,7 +133,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
