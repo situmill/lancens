@@ -65,8 +65,8 @@
 | id: | integer\($int64\) id |
 | per: | string 权限功能\("See\_video","Replay\_theater"，"Video\_intercom"，"Alarm\_push"\) |
 | suid: | string suid为好友id\(分享人的id\) |
-|  username |  主设备用户名\(分享设备才返回\) |
-| realm |  主设备用户昵称\(分享设备才返回\) |
+| username | 主设备用户名\(分享设备才返回\) |
+| realm | 主设备用户昵称\(分享设备才返回\) |
 
 ---
 
@@ -90,7 +90,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -116,7 +115,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -142,7 +140,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
