@@ -16,7 +16,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -25,7 +25,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -44,7 +43,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -53,7 +52,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -72,7 +70,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -81,7 +79,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -100,7 +97,7 @@
 
 * 相关错误代码解析:\(undefined XXX :参数没有传XXX\),\(no token:header请求头没有传token\),\(XXX length error: XXX长度有误\),\(XXX error: 验证XXX失败\),\(XXX format error: XXX类型错误\),\(invalid token:无效的token令牌\),\(no data error:服务器数据异常\),\(10001, 20001,30001,40001,50001,80001:数据库相关错误问题\),\(XXX exist: XXX存在\),\(paramer error : 代码中捕获到错误\)
 
-|  undefined XXX | 参数没有传XXX |
+| undefined XXX | 参数没有传XXX |
 | :--- | :--- |
 | no token | header请求头没有传token |
 | XXX length error | XXX长度有误 |
@@ -109,7 +106,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
