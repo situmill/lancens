@@ -16,9 +16,9 @@
 | XXX length error | XXX长度有误 |
 | XXX error | 验证XXX失败 |
 | XXX format error | XXX类型错误 |
-|  add limited |  添加上限 |
-|  added to myself |  自己已添加 |
-|  added to others |  其他人已添加 |
+| add limited | 添加上限 |
+| added to myself | 自己已添加 |
+| added to others | 其他人已添加 |
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
@@ -60,7 +60,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -88,7 +87,6 @@
 | 100XX,200XX,300XX | 数据库相关错误问题 |
 | invalid token | 无效的token令牌 |
 | XXX exist | XXX存在 |
-| username or password error | 账号密码不匹配 |
 | no data error | 数据错误 |
 | paramer error | 代码中捕获到错误 |
 
@@ -98,6 +96,7 @@
 
 | id: | integer\($int64\) 设备id |
 | :--- | :--- |
+|  total | 该设备已分享总数 |
 | uid: | string 由大写字母组成,固定长度20个字节 |
 | name: | string 由除英文特殊字符“~\`!@\#$%^&\*\(\)\_+-={}\|\[\]\:";&lt;&gt;?,./‘”组成,最大长度32个字节,最小长度1个字节 |
 | push: | number 是否接收推送信息（1开启 0关闭）（必传） |
