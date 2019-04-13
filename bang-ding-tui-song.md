@@ -4,7 +4,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
 
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"ostoken\": \"string\",  \"pushplatform\": \"string\"}"`
+* 接口请求:curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push\__token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os\_token\": \"string\",  \"push_\_platform\": \"string\",_\"phone\_model_\": \"string\"}"
 
 * 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
 
