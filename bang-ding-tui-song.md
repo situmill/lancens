@@ -4,7 +4,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/token](https://weixin.lancens.com:6443/v1/api/user/token)
 
-* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"os`_`token\": \"string\",  \"pushplatform\": \"string\"`_`}"`
+* 接口请求:`curl -X POST "https://weixin.lancens.com:6443/v1/api/user/token" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"push_token\": \"string\",  \"language\": \"string\", \"dev\": 0,  \"bundleid\": \"string\",  \"os\": \"string\",  \"ostoken\": \"string\",  \"pushplatform\": \"string\"}"`
 
 * 相关重要参数:token,bundleid,os,push\_platform,os\_token,dev
 
@@ -66,6 +66,7 @@
 | os: | string 手机系统\(选传默认空，使用手机系统推送，目前支持，小米，华为，OPPO等\) |
 | os\_token: | string 手机系统推送token\(选传默认空，使用手机系统推送所需要使用的token，目前支持，小米，华为，OPPO等\) |
 | push\_platform: | string 安卓推送平台\(选传默认空，使用安卓手机系统所需要的推送平台，目前支持，小米，华为，FCM\) |
+| phone\_model | string 手机型号\(xiaomi6等默认空\) |
 
 ---
 
