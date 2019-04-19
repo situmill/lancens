@@ -39,6 +39,7 @@
 | starttime: | string 为分享设备时才有开始时间 |
 | endtime: | string 为分享设备时才有结束时间 |
 | per: | string 为分享设备时才有权限 |
+| device: | string 设备类型 |
 
 ---
 
