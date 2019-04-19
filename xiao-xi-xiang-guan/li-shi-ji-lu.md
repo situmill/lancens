@@ -131,9 +131,9 @@
 
 ### 5.删除用户单条历史记录\(传序列号\)
 
-* API接口:https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event\_record
+* API接口:[https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event\_record](https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event_record)
 * 请求接口:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event_record" -H  "accept: application/json" -H  "token: token"`
-* 接口说明:XXX为需要删除记录的序列号
+* 接口说明:XXX为删除记录的序列号
 * 参数说明:img保存的是base64格式,需要解密后才能显示正确图片地址.
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
