@@ -31,7 +31,7 @@
 
 ---
 
-### 2.APP端根据设备uid查询分享设备相关信息\(组名\)
+### 2.APP端根据设备组名查询分享设备相关信息\(组名\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX](https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX)
 * 接口请求:`curl -X GET "https://weixin.lancens.com:6443/v1/api/device/share/group?group=XXX" -H  "accept: application/json" -H "token":"token"`
