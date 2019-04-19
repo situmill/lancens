@@ -129,7 +129,7 @@
 
 * 数据格式:[表1\(返回数据\)](#表1)
 
-### 5.删除指定历史记录\(序列号\)
+### 5.删除指定历史记录\(传序列号未使用\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page\_number=ZZZ](https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page_number=ZZZ)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page_number=ZZZ" -H  "accept: application/json" -H  "token: token"`
