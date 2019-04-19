@@ -129,11 +129,11 @@
 
 * 数据格式:[表1\(返回数据\)](#表1)
 
-### 5.删除用户指定一条历史记录\(传序列号\)
+### 5.删除用户单条历史记录\(传序列号\)
 
-* API接口:[https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page\_number=ZZZ](https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page_number=ZZZ)
-* 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/info?time=XXX&page=YYY&page_number=ZZZ" -H  "accept: application/json" -H  "token: token"`
-* 接口说明:XXX为日期,YYY为页数\(0开始\) ,ZZZ为数量,比如\(time=2019-03-18&page=0&page\_number=50\)  按50条一页显示.
+* API接口:https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event\_record
+* 请求接口:`curl -X DELETE "https://weixin.lancens.com:6443/v1/api/user/devicees/XXX/event_record" -H  "accept: application/json" -H  "token: token"`
+* 接口说明:XXX为需要删除记录的序列号
 * 参数说明:img保存的是base64格式,需要解密后才能显示正确图片地址.
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
