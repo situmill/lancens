@@ -97,7 +97,7 @@
 
 * 接口请求:`curl -X PUT "https://weixin.lancens.com:6443/v1/api/user/passwordcode/email" -H  "accept: application/json" -H  "content-type: application/json" -d "{  \"email\": \"string\"}"`
 
-* 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.邮箱必须存在才可以发送验证码
+* 接口相关说明:正确邮箱格式,appname\(app名称默认空\),language邮件的语言格式默认英文.邮箱必须存在才可以收到验证码
 
 ##### 2.通过邮箱验证码，重置用户密码
 
