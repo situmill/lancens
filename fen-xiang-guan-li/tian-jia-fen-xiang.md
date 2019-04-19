@@ -33,7 +33,7 @@
 | duid:\* | string  \* 设备uid |
 | :--- | :--- |
 | suids:\* | \[\] description: \* 好友id\[52,50,51\] |
-| group\_name:\* | string  \* 组名 |
+| group\_name:\* | string  \* 组名特殊字符除去 |
 | starttime:\* | string  \* 分享开始时间\(分钟0-1440\)默认0 |
 | endtime:\* | string  \* 分享结束时间\(分钟0-1440\)默认1440 |
 | per:\* | \[\] description: \* 权限功能\["See\_video","Replay\_theater","Video\_intercom","Alarm\_push"\] |
