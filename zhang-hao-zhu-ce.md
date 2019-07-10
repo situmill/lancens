@@ -1,6 +1,6 @@
 ## 账号注册有四种方式：
 
-#### 1.[用户名注册](/../zhang-hao-zhu-ce/yong-hu-ming-zhu-ce.html)：用户名不能是纯数字
+#### 1.[用户名注册](/../zhang-hao-zhu-ce/yong-hu-ming-zhu-ce.html)：用户名不能是纯数字\(暂不提供\)
 
 #### 2.[手机号注册](/../zhang-hao-zhu-ce/shou-ji-hao-zhu-ce.html):默认用户名mp\_XXX
 
