@@ -9,7 +9,7 @@
 * ##### [微信](/../deng-lu-yu-tui-chu/zhang-hao-deng-lu/di-san-fang-deng-lu/wei-xin-deng-lu.html):默认用户名wx\_XXX
 * ##### [Facebook](/../deng-lu-yu-tui-chu/zhang-hao-deng-lu/di-san-fang-deng-lu/facebook.html):默认用户名fb\_XXX
 
-##### 账号注册需要向lancens获取提供的apikey\(区分用户来源\)才能完成注册.默认为lancens相关用户.
+##### 账号注册需要向lancens获取提供的apikey才能完成注册.
 
 #### 简单流程图:
 
