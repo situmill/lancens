@@ -4,8 +4,6 @@
 
 #### 1.用户登录叮叮智能APP.没有账号需要注册账号\(第三方注册暂只支持叮叮智能APP\).
 
-* [用户名注册](/../zhang-hao-zhu-ce/yong-hu-ming-zhu-ce.html)
-
 * [手机号注册](/../zhang-hao-zhu-ce/shou-ji-hao-zhu-ce.html)
 
 * [邮箱注册](/../zhang-hao-zhu-ce/you-xiang-zhu-ce.html)
