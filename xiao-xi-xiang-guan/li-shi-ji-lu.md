@@ -129,8 +129,6 @@
 
 * 数据格式:[表1\(返回数据\)](#表1)
 
-
-
 | id: |
 | :--- |
 
@@ -143,7 +141,7 @@
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/event/total/time/stamp](https://weixin.lancens.com:6443/v1/api/user/device/event/total/time/stamp)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/total/time/stamp?start_time=XXX&end_time=YYY" -H  "accept: application/json" -H  "Token: token"`
-* 接口说明:返回时间戳范围内历史事件总数total\(5\);
+* 接口说明:返回时间戳范围内历史事件总数total;
 
 * 请求接口中  \(  -H "token":"token" \) 中 token 为 [用户登录时的token](/../deng-lu-yu-tui-chu.html),用作唯一访问令牌,API接口都需要传到header中
 
