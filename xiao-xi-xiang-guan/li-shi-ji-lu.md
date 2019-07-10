@@ -151,7 +151,7 @@
 
 ---
 
-### 6.获取当前日期时间下用户所有设备的历史事件信息\(传多个参数\)
+### 6.按时间戳范围 显示用户所有设备的历史事件信息\(传多个参数\)
 
 * API接口:[https://weixin.lancens.com:6443/v1/api/user/device/event/time/stamp](https://weixin.lancens.com:6443/v1/api/user/device/event/time/stamp)
 * 请求接口:`curl -X GET "https://weixin.lancens.com:6443/v1/api/user/device/event/time/stamp?start_time=XXX&end_time=YYY&page=A&page_number=B" -H  "accept: application/json" -H  "Token: token"`
@@ -177,8 +177,6 @@
 | video\_status: | number 是否有视频录像\(1为有，默认0 为无\) |
 | type: | string 设备事件类型\(0人体感应，1门铃呼叫，2指纹开锁，3密码开锁，4低电压，5门锁\)，其他\[type=100为推送分享转接,type=200为推送添加好友信息,type=20为设备下线通知，type=21为设备上线通知\] |
 | id: | integer\($int64\) 事件序列id |
-
-
 
 ---
 
